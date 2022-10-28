@@ -1,0 +1,27 @@
+{
+    "name": "smalot/magento-client",
+    "description": "Magento API Client (SOAP v1). Allows wrappers for each call, dependency injections and code completion.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastien MALOT",
+            "email": "sebastien@malot.fr",
+            "role": "Developer",
+            "homepage": "http://www.malot.fr"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/smalot/magento-client/issues"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "atoum/atoum": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Smalot\\Magento\\": "src/"
+        }
+    }
+}

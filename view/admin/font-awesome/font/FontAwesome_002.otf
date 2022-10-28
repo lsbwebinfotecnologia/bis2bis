@@ -1,0 +1,602 @@
+_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E4-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E7-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispXMLHttpRequestEventTarget" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E7-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E7-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E9-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispCPrintManagerTemplatePrinter" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E9-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900E9-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009F-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLPerformance" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009F-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009F-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900A0-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLPerformanceNavigation" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900A0-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900A0-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900A1-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLPerformanceTiming" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900A1-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305900A1-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590070-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLW3CComputedStyle" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590070-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590070-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510740-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSStyleDeclaration" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510740-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510740-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107D1-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSStyleDeclaration2" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107D1-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107D1-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051085C-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSStyleDeclaration3" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051085C-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051085C-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009A-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCSSStyleDeclaration" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009A-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009A-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106F4-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLStyleSheet4" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106F4-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106F4-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106FD-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLStyleSheetRule2" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106FD-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106FD-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E9-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E9-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E9-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007D-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCSSRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007D-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007D-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EA-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSImportRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EA-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EA-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007E-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCSSImportRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007E-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007E-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EB-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSMediaRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EB-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EB-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007F-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCSSMediaRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007F-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007F-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510731-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSMediaList" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510731-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510731-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590097-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCSSMediaList" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590097-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590097-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EE-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCSSNamespaceRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EE-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EE-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590080-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCSSNamespaceRule" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590080-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590080-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EC-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLStyleFontFace2" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EC-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106EC-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590081-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLStyleFontFace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590081-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590081-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590086-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLMediaError" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590086-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590086-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590087-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLTimeRanges" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590087-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590087-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590088-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLMediaElement" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590088-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590088-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590089-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLSourceElement" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590089-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590089-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008A-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLAudioElement" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008A-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008A-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008B-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLVideoElement" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008B-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008B-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106ED-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLStyleSheetPage2" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106ED-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106ED-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E7-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLStyleSheetsCollection2" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E7-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E7-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E8-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLStyleSheetRulesCollection2" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E8-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E8-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590098-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispDOMDocumentType" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590098-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590098-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009B-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispDOMProcessingInstruction" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009B-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059009B-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4425-26CB-11D0-B483-00C04FD90119}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLDocument2" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4425-26CB-11D0-B483-00C04FD90119}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4425-26CB-11D0-B483-00C04FD90119}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4426-26CB-11D0-B483-00C04FD90119}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLFramesCollection2" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4426-26CB-11D0-B483-00C04FD90119}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4426-26CB-11D0-B483-00C04FD90119}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4427-26CB-11D0-B483-00C04FD90119}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLWindow2" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4427-26CB-11D0-B483-00C04FD90119}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{332C4427-26CB-11D0-B483-00C04FD90119}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{626FC520-A41E-11CF-A731-00A0C9082637}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLDocument" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{626FC520-A41E-11CF-A731-00A0C9082637}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{626FC520-A41E-11CF-A731-00A0C9082637}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E4-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLCanvasElement" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E4-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106E4-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007B-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispHTMLCanvasElement" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007B-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059007B-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106FF-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="ICanvasRenderingContext2D" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106FF-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305106FF-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590082-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispCanvasRenderingContext2D" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590082-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30590082-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510714-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="ICanvasGradient" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510714-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510714-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008C-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispCanvasGradient" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008C-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008C-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510716-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="ICanvasPattern" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510716-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510716-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008D-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispCanvasPattern" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008D-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008D-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510718-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="ICanvasTextMetrics" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510718-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{30510718-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008E-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispCanvasTextMetrics" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008E-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008E-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051071C-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="ICanvasPixelArray" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051071C-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051071C-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051071A-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="ICanvasImageData" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051071A-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3051071A-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008F-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DispCanvasImageData" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008F-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{3059008F-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107EB-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLAudioElementFactory" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107EB-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107EB-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107F6-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IHTMLImgElement4" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107F6-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107F6-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107FF-98B5-11CF-BB82-00AA00BDCE0B}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IDOMCloseEvent" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107FF-98B5-11CF-BB82-00AA00BDCE0B}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{305107FF-98B5-11CF-BB82-00AA00BDCE0B}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{96A0A4E0-D062-11CF-94B6-00AA0060275C}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="HTMLWindowEvents" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{96A0A4E0-D062-11CF-94B6-00AA0060275C}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020420-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{96A0A4E0-D062-11CF-94B6-00AA0060275C}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{A5170870-0CF8-11D1-8B91-0080C744F389}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IWBScriptControl" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{A5170870-0CF8-11D1-8B91-0080C744F389}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{A5170870-0CF8-11D1-8B91-0080C744F389}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}" owner="true" />
+      <registryValue name="Version" valueType="REG_SZ" value="4.0" owner="true" />
+  

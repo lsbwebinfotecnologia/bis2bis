@@ -1,0 +1,260 @@
+
+                <td id="mainTitleAlign" valign="middle" align="left" width="*">
+                    <h1 id="mainTitle">Não é possível localizar a página da Web</h1>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <!-- This row is for HTTP status code, as well as the divider-->
+                <td id="http400Align" class="errorCodeAndDivider" align="right"><ID id="http400">&nbsp;HTTP 400</ID>
+                    <div class="divider"></div>
+                </td>
+            </tr>
+
+
+        <!-- Error Body -->
+
+        <!-- What you can do -->
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td id="likelyCausesAlign" valign="top" align="left">
+                    <h3 id="likelyCauses">Causas prováveis:</h3>
+                    <ul>
+                        <li id="causeErrorInAddress">Talvez haja um erro de digitação no endereço.</li>
+                        <li id="causeLinkOutOfDate">Se você clicou em um link, talvez ele esteja desatualizado.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td id="whatToTryAlign" valign="top" align="left">
+                    <h2 id="whatToTry">Você pode tentar:</h2>
+                </td>
+            </tr>
+
+        <!-- retype address -->
+            <tr>
+                <td >
+                    &nbsp;
+                </td>
+                <td id="retypeAddressAlign" align="left" valign="middle">
+                    <h4>
+                        <table>
+                          <tr>
+                              <td valign="top">
+                                  <img src="bullet.png" border="0" alt="" class="actionIcon">
+                              </td>
+                              <td valign="top">
+                                  <ID id="retypeAddress">Digitar o endereço novamente.</ID>
+                              </td>
+                          <tr>
+                        </table>
+                    </h4>
+                </td>
+            </tr>
+
+        <!-- back to previous page -->
+            <tr>
+                <td >
+                    &nbsp;
+                </td>
+                <td id="goBackAlign" align="left" valign="middle">
+                    <h4>
+                        <table>
+                          <tr>
+                              <td valign="top">
+                                  <img src="bullet.png" border="0" alt="" class="actionIcon">
+                              </td>
+                              <td valign="top">
+                                  <span id="goBackContainer"></span><noscript id="goBack">Voltar para a página anterior.</noscript>
+                              </td>
+                          </tr>
+                        </table>
+                    </h4>
+                </td>
+            </tr>
+
+
+        <!-- top level domain-->
+            <tr>
+                <td >
+                    &nbsp;
+                </td>
+                <td id="mainSiteAlign" align="left" valign="middle">
+                    <h4>
+                        <table>
+                          <tr>
+                              <td valign="top">
+                                  <img src="bullet.png" border="0" alt="" class="actionIcon">
+                              </td>
+                              <td valign="top">
+                                  <ID id="mainSite1">Ir para </ID><span id="homepageContainer"><noscript id="mainSite2">o site principal</noscript></span><ID id="mainSite3">&nbsp;e procure as informações desejadas.</ID>
+                              </td>
+                          </tr>
+                        </table>
+                    </h4>
+                </td>
+            </tr>
+
+        <!-- InfoBlock -->
+            <tr>
+                <td id="infoBlockAlign" align="right" valign="top">
+                    &nbsp;
+                </td>
+                <td id="moreInfoAlign" align="left" valign="middle">
+                    <h4>
+                        <table>
+                          <tr>
+                              <td valign="top">
+                                  <a href="#" onclick="javascript:expandCollapse('infoBlockID', true); return false;"><img src="down.png" id="infoBlockIDImage" border="0" class="actionIcon" alt="Mais informações"></a>
+                              </td>
+                              <td valign="top">
+                                  <span id="moreInfoContainer"></span>
+                                  <noscript><ID id="moreInformation">Mais informações</ID></noscript>
+                              </td>
+                          </tr>
+                        </table>
+                    </h4>
+                    <div id="infoBlockID" class="infoBlock">
+                        <p id="errorExplanation">Este erro (HTTP 400 - Solicitação Incorreta) indica que o programa pôde se conectar ao servidor Web, mas não foi possível encontrar a página da Web devido a um problema no endereço.</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>PAD﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="ErrorPageTemplate.css" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <title>HTTP 403 - Proibido</title>
+
+        <script src="errorPageStrings.js" language="javascript" type="text/javascript">
+        </script>
+        <script src="httpErrorPagesScripts.js" language="javascript" type="text/javascript">
+        </script>
+    </head>
+
+    <body onLoad="javascript:expandCollapse('infoBlockID', true); initGoBack(); initMoreInfo('infoBlockID');">
+
+        <table width="730" cellpadding="0" cellspacing="0" border="0">
+
+        <!-- Error title -->
+            <tr>
+                <td id="infoIconAlign" width="60" align="left" valign="top" rowspan="2">
+                    <img src="info_48.png" id="infoIcon" alt="Ícone de informações">
+                </td>
+                <td id="mainTitleAlign" valign="middle" align="left" width="*">
+                    <h1 id="mainTitle">O site recusou-se a mostrar a página da Web</h1>
+                </td>
+            </tr>
+
+            <tr>
+                <!-- This row is for HTTP status code, as well as the divider-->
+                <td id="http403Align" class="errorCodeAndDivider" align="right"><ID id="http403">&nbsp;HTTP 403</ID>
+                    <div class="divider"></div>
+                </td>
+            </tr>
+
+
+        <!-- Error Body -->
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td id="likelyCausesAlign" valign="top" align="left">
+                    <h3 id="likelyCauses">Causas prováveis:</h3>
+                    <ul>
+                        <li id="causeNeedAuth">Este site requer que você faça logon.</li>
+                    </ul>
+                </td>
+            </tr>
+
+        <!-- What you can do -->
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td id="whatToTryAlign" valign="top" align="left">
+                    <h2 id="whatToTry">Você pode tentar:</h2>
+                </td>
+            </tr>
+
+        <!-- back to previous page -->
+            <tr>
+                <td >
+                    &nbsp;
+                </td>
+                <td id="goBackAlign" align="left" valign="middle">
+                    <h4>
+                        <table>
+                          <tr>
+                              <td valign="top">
+                                  <img src="bullet.png" border="0" alt="" class="actionIcon">
+                              </td>
+                              <td valign="top">
+                                  <span id="goBackContainer"></span><noscript id="goBack">Voltar para a página anterior.</noscript>
+                              </td>
+                          </tr>
+                        </table>
+                    </h4>
+                </td>
+            </tr>
+
+        <!-- InfoBlock -->
+            <tr>
+                <td id="infoBlockAlign" align="right" valign="top">
+                    &nbsp;
+                </td>
+                <td id="moreInfoAlign" align="left" valign="middle">
+                    <h4>
+                        <table>
+                            <tr>
+                                <td valign="top">
+                                    <a href="#" onclick="javascript:expandCollapse('infoBlockID', true); return false;"><img src="down.png" id="infoBlockIDImage" border="0" class="actionIcon" alt="Mais informações"></a>
+                                </td>
+                                <td valign="top">
+                                    <span id="moreInfoContainer"></span>
+                                    <noscript><ID id="moreInformation">Mais informações</ID></noscript>
+                                </td>
+                            </tr>
+                        </table>
+                    </h4>
+                    <div id="infoBlockID" class="infoBlock">
+                        <p id="errorExplanation">Esse erro (HTTP 403 Proibido) significa que o Internet Explorer estava apto a se conectar ao site, mas ele não teve permissão para exibir a página da Web.</p>
+                        <p id="moreInfoSeeHelp">Para obter mais informações sobre erros de HTTP, consulte a Ajuda.</p>
+                    </div>
+
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>P﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+    <head>
+
+		<link rel="stylesheet" type="text/css" href="ErrorPageTemplate_IM.css" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <title>HTTP 403 - Proibido</title>
+
+        <script src="errorPageStrings.js" language="javascript" type="text/javascript">
+        </script>
+        <scr

@@ -1,0 +1,48 @@
+eigen zulassen möchtest."
+   },
+   "options_whitelist_notification": {
+      "message": "$website$ wurde auf die Whitelist gesetzt.",
+      "placeholders": {
+         "website": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "options_whitelist_placeholder_example": {
+      "message": "z.B. $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "www.example.com"
+         }
+      }
+   },
+   "optionstitle": {
+      "description": "Title for the Options page",
+      "message": "AdBlock – Optionen"
+   },
+   "optionstitle_yt": {
+      "description": "Title for the Options page for the 'AdBlock on YouTube' extension.",
+      "message": "AdBlock on YouTube™ – Optionen"
+   },
+   "optionsversion": {
+      "description": "Version number",
+      "message": "Version $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "3.9.2"
+         }
+      }
+   },
+   "orenteraurl": {
+      "description": "Text box to enter a link to a custom filter list",
+      "message": "Oder geben Sie eine URL ein:"
+   },
+   "other": {
+      "description": "Multiple choice option",
+      "message": "Andere"
+   },
+   "otherfilters": {
+      "description": "Subtitle on the Filter lists tab: List of fil

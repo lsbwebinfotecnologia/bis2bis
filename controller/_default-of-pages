@@ -1,0 +1,11 @@
+//BREADCRUMBS OBRIGATÓRIO NAS PÁGINAS
+$PagesBreadCrumbs = [
+    "Home"=> Rotas::get_SiteHome()
+];
+$smarty->assign('BREADCRUMBS', $PagesBreadCrumbs);
+$page = [
+    'link'=> Rotas::pagina_ProdutosGestao(),
+    'title'=> 'Gestão de Produtos'
+];
+$smarty->assign('PAGE', $page);
+//FIM BREADCRUMBS

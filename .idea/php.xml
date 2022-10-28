@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/lib/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/lib/monolog/monolog" />
+      <path value="$PROJECT_DIR$/lib/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/lib/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/lib/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/lib/psr/http-message" />
+      <path value="$PROJECT_DIR$/lib/psr/log" />
+      <path value="$PROJECT_DIR$/lib/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/lib/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/lib/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/lib/composer" />
+      <path value="$PROJECT_DIR$/lib/markbaker/complex" />
+      <path value="$PROJECT_DIR$/lib/league/csv" />
+      <path value="$PROJECT_DIR$/lib/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/lib/bittools/skyhub-php" />
+      <path value="$PROJECT_DIR$/lib/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/lib/automattic/woocommerce" />
+      <path value="$PROJECT_DIR$/lib/smarty/smarty" />
+      <path value="$PROJECT_DIR$/lib/cagartner/phpquery" />
+      <path value="$PROJECT_DIR$/lib/cagartner/correios-consulta" />
+      <path value="$PROJECT_DIR$/lib/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/lib/flyingluscas/correios-php" />
+      <path value="$PROJECT_DIR$/lib/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/lib/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/lib/smalot/magento-client" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>

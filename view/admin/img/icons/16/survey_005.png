@@ -1,0 +1,18 @@
+.AuthHost">substrate.office.com</o:token>
+  <o:token o:name="Substrate.BaseHost">substrate.office.com</o:token>
+  <o:token o:name="Outlook.AuthHost">outlook.office.com</o:token>
+  <o:token o:name="Flow.AuthHost">https://service.[Flow.BaseHost]/</o:token>
+  <o:token o:name="Flow.BaseHost">flow.microsoft.com</o:token>
+  <o:token o:name="Teams.BaseHost">teams.microsoft.com</o:token>
+  <o:token o:name="AADRedemptionServiceResourceId">https://redemptionservices.microsoft.com/</o:token>
+  <o:token o:name="ACSClientSecret">gI0PLmGIUVrSRNOZXf1EeQKzZ0JDTWDUbBV%2bL15%2bjzU%3d</o:token>
+  <o:token o:name="ACSHost">posarprodcssservice.accesscontrol.windows.net</o:token>
+  <o:token o:name="ACSScope">http%3a%2f%2fredemptionservices.microsoft.com%2f</o:token>
+  <o:token o:name="ADALAuthorityUrl">https://login.windows.net/common/oauth2/authorize</o:token>
+  <o:token o:name="ADALClientIdExcel">d3590ed6-52b3-4102-aeff-aad2292ab01c</o:token>
+  <o:token o:name="ADALClientIdLync">d3590ed6-52b3-4102-aeff-aad2292ab01c</o:token>
+  <o:token o:name="ADALClientIdOneNote">d3590ed6-52b3-4102-aeff-aad2292ab01c</o:token>
+  <o:token o:name="ADALClientIdOMEX">c606301c-f764-4e6b-aa45-7caaaea93c9a</o:token>
+  <o:token o:name="ADALClientIdOutlook">d3590ed6-52b3-4102-aeff-aad2292ab01c</o:token>
+  <o:token o:name="ADALClientIdPowerPoint">d3590ed6-52b3-4102-aeff-aad2292ab01c</o:token>
+  <o:

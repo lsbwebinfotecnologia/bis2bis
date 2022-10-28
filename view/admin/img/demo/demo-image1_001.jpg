@@ -1,0 +1,634 @@
+Sun, 15 Jun 2014 12:05:05 -0300) 1412
+array(40) {
+  ["codstatus"]=>
+  string(8) "APROVADO"
+  ["codrastreamento"]=>
+  string(0) ""
+  ["ws_pedidos"]=>
+  string(43) "http://localhost/ws/WSHorusPedidoVenda.asmx"
+  ["ws_clientes"]=>
+  string(39) "http://localhost/ws/WSHorusCliente.asmx"
+  ["cod_empresa"]=>
+  string(1) "1"
+  ["cod_filial"]=>
+  string(1) "1"
+  ["id"]=>
+  string(3) "424"
+  ["codigo_pedido"]=>
+  string(3) "424"
+  ["cpfj"]=>
+  string(11) "39829438848"
+  ["nome"]=>
+  string(13) "Bruna Stremel"
+  ["responsavel_cod"]=>
+  string(1) "8"
+  ["responsavel_nome"]=>
+  string(4) "SITE"
+  ["ativo"]=>
+  bool(true)
+  ["email"]=>
+  string(28) "bruninha_stremel@hotmail.com"
+  ["data_aniversario"]=>
+  string(10) "16/01/1992"
+  ["rg"]=>
+  string(10) "47930076-8"
+  ["tipo_cliente"]=>
+  string(1) "1"
+  ["pais"]=>
+  string(6) "Brasil"
+  ["sigla_uf"]=>
+  string(2) "SP"
+  ["nome_uf"]=>
+  string(9) "São Paulo"
+  ["cidade"]=>
+  string(23) "SÃ£o JoÃ£o da Boa Vista"
+  ["contato"]=>
+  string(13) "Bruna Stremel"
+  ["bairro"]=>
+  string(7) "Yolanda"
+  ["endereco"]=>
+  string(12) "Luiz Valotta"
+  ["complemento"]=>
+  string(0) ""
+  ["numero"]=>
+  string(3) "164"
+  ["cep"]=>
+  string(8) "13872184"
+  ["telefone"]=>
+  string(10) "1936231721"
+  ["celular"]=>
+  string(11) "19993714772"
+  ["fax"]=>
+  string(0) ""
+  ["status"]=>
+  bool(true)
+  ["obs"]=>
+  string(39) "Pedido feito na loja virtual n {PEDIDO}"
+  ["transportadora"]=>
+  int(2)
+  ["metodo"]=>
+  string(2) "10"
+  ["forma_pagamento"]=>
+  int(6)
+  ["vlr_frete"]=>
+  string(5) "15.00"
+  ["tipo_endereco"]=>
+  string(1) "1"
+  ["qtd_parcelas"]=>
+  string(1) "1"
+  ["valor_itens"]=>
+  float(20,93)
+  ["itens"]=>
+  array(1) {
+    [0]=>
+    array(3) {
+      ["cod"]=>
+      string(1) "8"
+      ["qtd"]=>
+      string(1) "1"
+      ["vlr_unit"]=>
+      float(20,93)
+    }
+  }
+}
+A_BuscaClienteCPF_CNPJ
+array(1) {
+  ["CPF_CNPJ"]=>
+  string(11) "39829438848"
+}
+string(83) "http://localhost/ws/WSHorusCliente.asmx/A_BuscaClienteCPF_CNPJ?CPF_CNPJ=39829438848"
+string(4871) "<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="COD_CLI" type="xs:int" minOccurs="0" />
+                <xs:element name="NOM_CLI" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_REDUZIDO" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_CONTATO" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TPO_PESSOA" type="xs:string" minOccurs="0" />
+                <xs:element name="CNPJ" type="xs:string" minOccurs="0" />
+                <xs:element name="RG" type="xs:string" minOccurs="0" />
+                <xs:element name="CPF" type="xs:string" minOccurs="0" />
+                <xs:element name="INSC_ESTADUAL" type="xs:string" minOccurs="0" />
+                <xs:element name="INS_MUNICIPAL" type="xs:string" minOccurs="0" />
+                <xs:element name="TIPO_CARTAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NRO_CARTAO" type="xs:string" minOccurs="0" />
+                <xs:element name="VAL_CARTAO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ASSINANTE_CLI" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_APROV_FIN" type="xs:string" minOccurs="0" />
+                <xs:element name="DAT_CADASTRO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DAT_NASCIMENTO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DAT_ULT_ATL" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOM_USUARIO" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_RESP" type="xs:string" minOccurs="0" />
+                <xs:element name="DIAS_APROV_FIN" type="xs:int" minOccurs="0" />
+                <xs:element name="STA_CONTRIBUINTE" type="xs:string" minOccurs="0" />
+                <xs:element name="VLR_DESC_CLI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="COD_FORMA" type="xs:int" minOccurs="0" />
+                <xs:element name="PRAZO_VENCIMENTOS" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_CLI_MONITOR" type="xs:int" minOccurs="0" />
+                <xs:element name="COD_RESPONSAVEL" type="xs:int" minOccurs="0" />
+                <xs:element name="CONDICAO_PAGAMENTO" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_TRANSP" type="xs:int" minOccurs="0" />
+                <xs:element name="DESC_BANCO" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_AGENCIA" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_CONTAC" type="xs:string" minOccurs="0" />
+                <xs:element name="OBS_FINANCEIRAS" type="xs:string" minOccurs="0" />
+                <xs:element name="CAD_ORGAO" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_ATIVO" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEM1" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEM2" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_FIDELIDADE" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_1" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_2" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_3" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_4" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_5" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_6" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_7" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_8" type="xs:string" minOccurs="0" />
+                <xs:element name="OBS_ATIVO" type="xs:string" minOccurs="0" />
+                <xs:element name="ORGAO_PUBLICO" type="xs:string" minOccurs="0" />
+                <xs:element name="REVENDA" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+</DataSet>"
+string(4871) "<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="COD_CLI" type="xs:int" minOccurs="0" />
+                <xs:element name="NOM_CLI" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_REDUZIDO" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_CONTATO" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TPO_PESSOA" type="xs:string" minOccurs="0" />
+                <xs:element name="CNPJ" type="xs:string" minOccurs="0" />
+                <xs:element name="RG" type="xs:string" minOccurs="0" />
+                <xs:element name="CPF" type="xs:string" minOccurs="0" />
+                <xs:element name="INSC_ESTADUAL" type="xs:string" minOccurs="0" />
+                <xs:element name="INS_MUNICIPAL" type="xs:string" minOccurs="0" />
+                <xs:element name="TIPO_CARTAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NRO_CARTAO" type="xs:string" minOccurs="0" />
+                <xs:element name="VAL_CARTAO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ASSINANTE_CLI" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_APROV_FIN" type="xs:string" minOccurs="0" />
+                <xs:element name="DAT_CADASTRO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DAT_NASCIMENTO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DAT_ULT_ATL" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOM_USUARIO" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_RESP" type="xs:string" minOccurs="0" />
+                <xs:element name="DIAS_APROV_FIN" type="xs:int" minOccurs="0" />
+                <xs:element name="STA_CONTRIBUINTE" type="xs:string" minOccurs="0" />
+                <xs:element name="VLR_DESC_CLI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="COD_FORMA" type="xs:int" minOccurs="0" />
+                <xs:element name="PRAZO_VENCIMENTOS" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_CLI_MONITOR" type="xs:int" minOccurs="0" />
+                <xs:element name="COD_RESPONSAVEL" type="xs:int" minOccurs="0" />
+                <xs:element name="CONDICAO_PAGAMENTO" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_TRANSP" type="xs:int" minOccurs="0" />
+                <xs:element name="DESC_BANCO" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_AGENCIA" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_CONTAC" type="xs:string" minOccurs="0" />
+                <xs:element name="OBS_FINANCEIRAS" type="xs:string" minOccurs="0" />
+                <xs:element name="CAD_ORGAO" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_ATIVO" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEM1" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEM2" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_FIDELIDADE" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_1" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_2" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_3" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_4" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_5" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_6" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_7" type="xs:string" minOccurs="0" />
+                <xs:element name="INFO_ADIC_8" type="xs:string" minOccurs="0" />
+                <xs:element name="OBS_ATIVO" type="xs:string" minOccurs="0" />
+                <xs:element name="ORGAO_PUBLICO" type="xs:string" minOccurs="0" />
+                <xs:element name="REVENDA" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+</DataSet>"
+F_InsereCliente
+array(22) {
+  ["COD_CLI"]=>
+  int(0)
+  ["NOM_CLI"]=>
+  string(13) "Bruna Stremel"
+  ["COD_RESPONSAVEL"]=>
+  string(1) "8"
+  ["TPO_PESSOA"]=>
+  string(1) "F"
+  ["STA_CONTRIBUINTE"]=>
+  string(1) "N"
+  ["STA_ATIVO"]=>
+  string(1) "S"
+  ["NOM_REDUZIDO"]=>
+  string(0) ""
+  ["NOM_CONTATO"]=>
+  string(13) "Bruna Stremel"
+  ["NOM_RESP"]=>
+  string(4) "SITE"
+  ["EMAIL"]=>
+  string(28) "bruninha_stremel@hotmail.com"
+  ["RG"]=>
+  string(10) "47930076-8"
+  ["INSC_ESTADUAL"]=>
+  string(6) "Isento"
+  ["INS_MUNICIPAL"]=>
+  string(0) ""
+  ["ASSINANTE_CLI"]=>
+  string(1) "N"
+  ["DAT_NASCIMENTO"]=>
+  string(10) "16/01/1992"
+  ["CAD_ORGAO"]=>
+  string(0) ""
+  ["IMAGEM1"]=>
+  string(0) ""
+  ["IMAGEM2"]=>
+  string(0) ""
+  ["OBS_ATIVO"]=>
+  string(0) ""
+  ["ORGAO_PUBLICO"]=>
+  string(0) ""
+  ["CPF"]=>
+  string(11) "39829438848"
+  ["CNPJ"]=>
+  string(0) ""
+}
+string(413) "http://localhost/ws/WSHorusCliente.asmx/F_InsereCliente?COD_CLI=0&NOM_CLI=Bruna+Stremel&COD_RESPONSAVEL=8&TPO_PESSOA=F&STA_CONTRIBUINTE=N&STA_ATIVO=S&NOM_REDUZIDO=&NOM_CONTATO=Bruna+Stremel&NOM_RESP=SITE&EMAIL=bruninha_stremel%40hotmail.com&RG=47930076-8&INSC_ESTADUAL=Isento&INS_MUNICIPAL=&ASSINANTE_CLI=N&DAT_NASCIMENTO=16%2F01%2F1992&CAD_ORGAO=&IMAGEM1=&IMAGEM2=&OBS_ATIVO=&ORGAO_PUBLICO=&CPF=39829438848&CNPJ="
+string(276) "<NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <Mensagem>Registro inserido com sucesso!</Mensagem>
+      </Table>
+      <Table1 diffgr:id="Table11" msdata:rowOrder="0">
+        <Cliente>894</Cliente>
+      </Table1>
+    </NewDataSet>"
+string(3) "894"
+D_ListaEnderecosCliente
+array(1) {
+  ["COD_CLI"]=>
+  string(3) "894"
+}
+string(75) "http://localhost/ws/WSHorusCliente.asmx/D_ListaEnderecosCliente?COD_CLI=894"
+string(2794) "<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="COD_CLI" type="xs:int" minOccurs="0" />
+                <xs:element name="COD_END" type="xs:int" minOccurs="0" />
+                <xs:element name="COD_TPO_END" type="xs:int" minOccurs="0" />
+                <xs:element name="DESC_TPO_END" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_CONTATO" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_PAIS" type="xs:int" minOccurs="0" />
+                <xs:element name="NOM_PAIS" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_UF" type="xs:int" minOccurs="0" />
+                <xs:element name="NOME_UF" type="xs:string" minOccurs="0" />
+                <xs:element name="SIGLA_UF" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_MUNICIPIO" type="xs:int" minOccurs="0" />
+                <xs:element name="NOM_LOCAL" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_BAIRRO" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="CEP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QTD_CATALOGOS" type="xs:int" minOccurs="0" />
+                <xs:element name="EMISSAO_AUT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEL_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="CEL_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="FAX_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_DEFAULT" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_VALIDO" type="xs:string" minOccurs="0" />
+                <xs:element name="DAT_ULT_ATL" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOM_USU" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+</DataSet>"
+string(2794) "<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="COD_CLI" type="xs:int" minOccurs="0" />
+                <xs:element name="COD_END" type="xs:int" minOccurs="0" />
+                <xs:element name="COD_TPO_END" type="xs:int" minOccurs="0" />
+                <xs:element name="DESC_TPO_END" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_CONTATO" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_PAIS" type="xs:int" minOccurs="0" />
+                <xs:element name="NOM_PAIS" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_UF" type="xs:int" minOccurs="0" />
+                <xs:element name="NOME_UF" type="xs:string" minOccurs="0" />
+                <xs:element name="SIGLA_UF" type="xs:string" minOccurs="0" />
+                <xs:element name="COD_MUNICIPIO" type="xs:int" minOccurs="0" />
+                <xs:element name="NOM_LOCAL" type="xs:string" minOccurs="0" />
+                <xs:element name="NOM_BAIRRO" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="CEP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QTD_CATALOGOS" type="xs:int" minOccurs="0" />
+                <xs:element name="EMISSAO_AUT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEL_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="CEL_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="FAX_ENDERECO" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_DEFAULT" type="xs:string" minOccurs="0" />
+                <xs:element name="STA_VALIDO" type="xs:string" minOccurs="0" />
+                <xs:element name="DAT_ULT_ATL" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOM_USU" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+</DataSet>"
+
+Warning: Invalid argument supplied for foreach() in C:\F1\horus\app\horus\1.0\sub\horuspedido.php on line 176
+H_InsereEnderecosCliente
+array(16) {
+  ["COD_CLI"]=>
+  string(3) "894"
+  ["COD_TPO_END"]=>
+  int(1)
+  ["NOM_PAIS"]=>
+  string(6) "BRASIL"
+  ["SIGLA_UF"]=>
+  string(2) "SP"
+  ["NOME_UF"]=>
+  string(9) "São Paulo"
+  ["NOM_LOCAL"]=>
+  string(23) "SÃ£o JoÃ£o da Boa Vista"
+  ["NOM_CONTATO"]=>
+  string(13) "Bruna Stremel"
+  ["NOM_BAIRRO"]=>
+  string(7) "Yolanda"
+  ["DESC_ENDERECO"]=>
+  string(16) "Luiz Valotta 164"
+  ["COM_ENDERECO"]=>
+  string(0) ""
+  ["CEP"]=>
+  string(8) "13872184"
+  ["TEL_ENDERECO"]=>
+  string(10) "1936231721"
+  ["CEL_ENDERECO"]=>
+  string(11) "19993714772"
+  ["FAX_ENDERECO"]=>
+  string(0) ""
+  ["STA_DEFAULT"]=>
+  string(1) "N"
+  ["STA_VALIDO"]=>
+  string(1) "S"
+}
+string(373) "http://localhost/ws/WSHorusCliente.asmx/H_InsereEnderecosCliente?COD_CLI=894&COD_TPO_END=1&NOM_PAIS=BRASIL&SIGLA_UF=SP&NOME_UF=S%E3o+Paulo&NOM_LOCAL=S%C3%A3o+Jo%C3%A3o+da+Boa+Vista&NOM_CONTATO=Bruna+Stremel&NOM_BAIRRO=Yolanda&DESC_ENDERECO=Luiz+Valotta+164&COM_ENDERECO=&CEP=13872184&TEL_ENDERECO=1936231721&CEL_ENDERECO=19993714772&FAX_ENDERECO=&STA_DEFAULT=N&STA_VALIDO=S"
+string(171) "<NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <Mensagem>Registro inserido com sucesso!</Mensagem>
+      </Table>
+    </NewDataSet>"
+F_InserePedidoVenda
+array(12) {
+  ["COD_EMPRESA"]=>
+  string(1) "1"
+  ["COD_FILIAL"]=>
+  string(1) "1"
+  ["COD_CLI"]=>
+  string(3) "894"
+  ["OBS_PEDIDO"]=>
+  string(34) "Pedido feito na loja virtual n 424"
+  ["COD_TRANSP"]=>
+  int(2)
+  ["COD_METODO"]=>
+  string(2) "10"
+  ["COD_TPO_END"]=>
+  int(1)
+  ["VLR_FRETE"]=>
+  string(5) "15,00"
+  ["FRETE_EMIT_DEST"]=>
+  string(0) ""
+  ["COD_PEDIDO_ORIGEM"]=>
+  string(3) "424"
+  ["DATA_EST_ENTREGA"]=>
+  string(0) ""
+  ["NOM_RESP"]=>
+  string(4) "SITE"
+}
+string(278) "http://localhost/ws/WSHorusPedidoVenda.asmx/F_InserePedidoVenda?COD_EMPRESA=1&COD_FILIAL=1&COD_CLI=894&OBS_PEDIDO=Pedido+feito+na+loja+virtual+n+424&COD_TRANSP=2&COD_METODO=10&COD_TPO_END=1&VLR_FRETE=15%2C00&FRETE_EMIT_DEST=&COD_PEDIDO_ORIGEM=424&DATA_EST_ENTREGA=&NOM_RESP=SITE"
+string(141) "<NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <PEDIDO>6895</PEDIDO>
+      </Table>
+    </NewDataSet>"
+G_InsereItensPedidoVenda
+array(7) {
+  ["COD_EMPRESA"]=>
+  string(1) "1"
+  ["COD_FILIAL"]=>
+  string(1) "1"
+  ["COD_CLI"]=>
+  string(3) "894"
+  ["COD_PED_VENDA"]=>
+  string(4) "6895"
+  ["COD_ITEM"]=>
+  string(1) "8"
+  ["QTD_PEDIDA"]=>
+  string(1) "1"
+  ["VLR_LIQUIDO"]=>
+  string(5) "20,93"
+}
+string(170) "http://localhost/ws/WSHorusPedidoVenda.asmx/G_InsereItensPedidoVenda?COD_EMPRESA=1&COD_FILIAL=1&COD_CLI=894&COD_PED_VENDA=6895&COD_ITEM=8&QTD_PEDIDA=1&VLR_LIQUIDO=20%2C93"
+string(167) "<NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <Mensagem>Item Inserido com Sucesso!</Mensagem>
+      </Table>
+    </NewDataSet>"
+H_InserePagamentoGeral
+array(7) {
+  ["COD_EMPRESA"]=>
+  string(1) "1"
+  ["COD_FILIAL"]=>
+  string(1) "1"
+  ["COD_CLI"]=>
+  string(3) "894"
+  ["COD_PED_VENDA"]=>
+  string(4) "6895"
+  ["COD_FORMA"]=>
+  int(6)
+  ["VLR_PEDIDO"]=>
+  string(5) "20,93"
+  ["QTD_PARCELAS"]=>
+  string(1) "1"
+}
+string(170) "http://localhost/ws/WSHorusPedidoVenda.asmx/H_InserePagamentoGeral?COD_EMPRESA=1&COD_FILIAL=1&COD_CLI=894&COD_PED_VENDA=6895&COD_FORMA=6&VLR_PEDIDO=20%2C93&QTD_PARCELAS=1"
+string(172) "<NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <Mensagem>Pagamento Inserido com Sucesso!</Mensagem>
+      </Table>
+    </NewDataSet>"
+array(2) {
+  ["pedido"]=>
+  string(4) "6895"
+  ["cliente"]=>
+  string(3) "894"
+}
+Sun, 15 Jun 2014 12:05:10 -0300 Retornado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ĞÏà¡±á                >  şÿ	                               şÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿşÿÿÿşÿÿÿÿÿÿÿ            	   
+                                                               şÿÿÿ    !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   şÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿR o o t   E n t r y                                               ÿÿÿÿÿÿÿÿ                               pÆw—jÏşÿÿÿ        2 5 6 _ 7 1 b 7 1 e 8 9 9 3 6 b 2 c c e                         *    ÿÿÿÿÿÿÿÿ                                       §4      2 5 6 _ 1 5 1 5 5 1 7 f 7 c 3 9 3 6 f f                         *  ÿÿÿÿÿÿÿÿÿÿÿÿ                                       ş%                                                                          ÿÿÿÿÿÿÿÿÿÿÿÿ                                                ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      æ%      Tåcpœœ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              4      •ivóğl¯‰PNG
+
+   IHDR   Û      :   sRGB ®Îé   gAMA  ±üa  49IDATx^í	|TÕ½ÇÿçÜY’!D fœ$F4". €j¥ußÅ§­µOmµ¯­¯­Zyö½ZõÕ¥­ûV­}¯­}­[­;«(‹. H%
+1É0!È!&¹sÏ}¿ÿÌÅRÈ2“Ì–™óå3ÜsÎLfî=÷üÎÿÖ+H“jkk½*In÷~Šè It ’÷³‰ÆEÃIÒPÄ‹mE.‘L„›³~µ!a3>³­’•RÍø&—mn”–¶Õ××wìü;Mn¢Å–FFåóy<Sˆäùˆ„W„R{35(üÛã6¨¬Ç·mRoC­+…‚ÏY±Oir-¶Ô#À¾Ñ÷!€Ë‘ÁåHƒÊ6¬£‰_Ü‹¹ jœ	Å½
+…Öã=UM¶ĞbK²º¢â ¸‰×£Hÿ,˜ÇIÏØÂ} ñ?%z¾:hX´h‚šL¢Å–ª««‡‘R¿@f^hq<57ÕëÄy.—$îì”öK¡`0â¼¥I3Zlƒ]ÆI†¢§á¶íë¤lXºVÿ³Èç{¢¾¾¾+¬IZlıGÔøı—Ã{|B+rÒ+Ax7øƒÁ¹‹ˆ´{™&´Øú‡¨	TıÔ&û&d wÕçÜ®›-M÷U­kãIšT¢Å–<¢Úø‰t;Â™ìeÌ°p›pøVS08+Õ¤
+Ã9j®ãùĞÛCBäEû'Pûúğº¸¼¬ÌWRVöFÛ_h·2Eh±%AmEÅ>¶Ë5B+q’òöx–Šö{=/o‡Íx²f ä”F¤åvÿG¤.\åsÚ‹|¯Æ†64F‹-Aj+«NGuÏS®
+
+n
+EÕ¬ÆŒá$iú‰[Ä&öd~ApGuy<OL˜8Áí$iúîìºº:O$)îìì4¼Ò[CB½…BWØ…MÑïCÁï ¤'8÷-¶İğûıcÜR^f+º ÑZ¼</_Îïkè?ƒÁÛœ°&	´Øv¡:¸µ÷}×H'I³6Q»A4­!|ÇIÒ$ˆˆ¹ŒíáÛ ²kÕyÒÜÊ’pxÒŠÙâk¤àÇÙ¸ó#º£óíßÕBK dÒHÓpÙÚöÅl'I“ ß©LóäÂ¿"¨…–’~P]Yy„Ó$@A‹­Æïçõg?ÁK-yÆSij^N[KëFÖ‡ÛB<•y$M²ªÜ>tëÒ­mm«œM/¤eóE¤èQ-ßç8¦äŸ‹¤üùÔ©Úº%BAŠæü2\ù‘NT30h	§9aM/œØxæ¾Pt‡Õ¤ [ÑÏqĞíŞ>(8±Yn÷/E|CTMŠ@~N®ª¨ÒB”Ø¸Sm5†¥I-BöUNXÓ…$6îÎM¨…uïc:tJEE…?Ú#¶ııq89Ó¤1Ãs´ÖtCÁˆ-JôcmÕÒŠÒ¾”ñ¨fw
+"cÆVVVD…ñª–Á¾¿cn£hÃöH¸f£ Ü-aÙLÃ¸P-HÚ»¤¨hŠÓìFŞ‹gõ£Æ½Ò‰jÒŒˆ?KÓy/¶h4z ûÅcš g“ô@Ş‹MXöÉ"·ß”ßHÎœ˜fò]l„vŠÖd)”ÒëÜº!¯ÅV]]]b+ïD5™A İ¦ÇÛº!¯Åf(UË¦7ïÉ0ÈóÃœ fòZlJ[µì h¿ñ#Gqb‡¼›Mt¨Ôd–²nw™Ö8äµØàÎp·FA‘ºººÈ4M*++£Š}ö!¯×K‘H=ºZR‰%½cœ˜Æ!¯ÅªœcÚQ–Š	ìàCÆÑ½÷ßOï.]JK?ü¿ù&-_±"–&gÚ !„ªsÂ‡|›@Ûao'œV:ÚÃtøÄ	ôò¬Yôü‹/Ñù\@£GvŞ%r{<4ıÂé¶_ş2fõ
+¸ğ:ACŞŠmÔ¨QÅ8¤uE¶eZäóùèÿşöüótÈ!‡”=géYgI#GfDÿY6üòİsJŠ¼ÍÇãÅÕ¥mæ[¨ó¦ŸOo.YB§œvš“Ú;Şâbºé–›!H#ævæ5’&UVVşÃ¼kòWln¢RŞHRĞˆËpÓŸşügºûŞ{ièĞäŒçYgŸM¯/ZH‡vh¾wš{„ë<'¬ùkæ¥<ÿ§TlÜrÀûÓKŞ¢N<ÑIMÔøôÜ/ĞÏo¾…Û6ùkå¤}®Ò€|›BÌbK,´o^z)½ğòËhw|R
+·í®¼êJZ¸h1}Ì±ùjå&ëçqÿƒ¼ì‹†å¨ğc%ª’”ÜhnŸ±ËÈ=Šé@Á73{]wí5´½­Üî¼ÙMö´Æ`ğõx´°ÉKËæ&w®¬Ô‰ö æiµyòÉ´	a+wêi§Ò;ï½GçŸ^ÌŠÆ~{ğ#qÇ:á‚'/Å&„â¥ùº6nG©Có_›:ÕIM/%%%tÏı÷Ñ+³fÑÁãÇåÇ˜œ$½ÜÆ!ÅÆ®ñ„x°°ĞU´Ï^¢ªªŒMBù’ñ‡B{áºÿÁ‰G0Ì.Óygğ!ÛšB“b«««sãªxÈ~Á.Ü¸ƒ¦™sæĞ^{íå¤f—ËEçw-[ş!]şo#EÊ^K›¨\tˆ»ôù@Ş‰mÓ¦MnÜà~M‚e¡vú°*ÏÅf†äÅ<~óÍ4Áëtò©§Âµtí¹¡–èĞ+ @Ş‰­ÌUV×e„M.Ä§Ÿq&=øğC1×-×`wö‘ß>J³çÍ¥ª‹ÍÇI^Û0ô$ ïÄf¹"{ãª’Ú#’-OşÍ£ÄÜ·\fÜ¸q4sö,úó“¡J¿pô\JéwBMŞ‰MÙFRVë%—^Jwß{“288iÚ4zuş|Xâ‡iLå˜œDN° É;±Á.%Ü>à®õó/˜N¿¸õÖØX×`ƒ—îğ\ËÒC]é°¡´#œ{¢ãN'XĞäŸe3ì„z6â®ãtºç¾{¥Ğv…EwÎyçÑ{ï/¥_ß}gläŠ{‰6´ŞäØP‹ò:¶^á.ôóÎ¿`Ğ¹}áv»é—\[Uğào~CUÕU1÷2ë¢ÓOz‘wbKË²èW_=è-ZOğpÁYgŸEsç¿›jVS[CÛÛÚœw5Ù"ïJ\Ë	öŠÈË)Øÿ÷¬Â	ôêk¯Ñ+³gÓä)SbKzØ…Î(Šï˜’wb“$úì!°ñ¯+Ó.Ë9iRÌÊ-X¸¾såUäõe¬Ó–¤Ÿ×òNlJÚ	ùK‘;œPa±o @?ûù´ôƒet×=÷ĞŞ{¦íííém×)Úæ„
+šü›[`øëÖ­sb…I±ÏG]|1½ıîzùåWhÚ×¦Å¬]:z1aÙ¶8Á‚&ïÄæ²¬M8pÓ¤G$ş55691Í¤)“é·¿û½¹äíØŸƒ98&ºT-ñq)±Æ	4y'6TÏ›P3owb=ÒØø™Òì¤¼¼<6mí…—^Šm2û£k®¡aeå17s +I;ä„š¼[86qUœh·HÃ Õ«VÅ¶#Ğì	»Ù£ÇŒ¦k¯»–}øA¬7ó’K¿ÛJ÷ÊLf>&\Œ°ê2ZhA“àFµ?ğªt‚ï–¢¢bzÙÒXÛE“,²–Pˆf¾2“^~ñEZµz•óNÏ@lkIÊqMMM_8IKş¹‘D®j…îäİ°¡W¨Ù¡R]SCß¿úôâÌW¨V_ 6ÿBëÓ­/òQlÌRçØ#–²hÁëœ˜&YV¯ZÊj£ëEËcÿkòTl¦¹mŠN'Ö-^O½üÒKNL“,óæÍ…+Ğ"Û%Î±àÉO±y½ÜûÕëà6ÚtôŞ;ïr‡Š“¢I†ç}Ü·ëKB‹Í!/Åæ4ÆßŠÇz&bvÒ¼¹s˜&Q>ûì3úäÓz'Ö36Ñº}÷İ·ïùÚfã†ù³N°G†ø|ôøwbšDyñù¨Èİ·)½ºhÑ¢¨-xòVlÒ2_Ã¡ÏıÁË¨¥¥Å‰iúbÇô×g&#‘-Ò%=é„4 oÅÖĞÚºÖV´Ø‰öHÔ´è©'u™H”eK—Rss³ë_‹˜æ"'ªy+6Æ ñ¿N°Gø!üÃ¨³³×ÎKÃ÷=ëÉM€Y­­­…¹´¢ò[lQï,Ô°›hlŞ´‰zâ	'¦é‰¿¯XA¯½>?Ö“Ûğ(L´™ÿÇ‰jò}½²¨ÃE^áÄ{„»±ß_öAìáš=‰F£tÁ¹çÒGËWô)6Rô‘)ir(ÌË‡Îõ—¼¶lÀJ=Œš¶Ïµ"áö0İ{÷İNL³;^Ş}ç¾…l›~¯…¶'ùnÙ¬ÛB\èÑN¼g„ ×,ˆ­fÖüøÿê´“èóÖ¾Ü²Û%ª…ØôêìİÈwËÆDI©ŸáˆrĞ;*jÑ3fè¥7»ñØoKkšƒN¬,úµZ÷äÍód{c[[[syYÙqÖÄSºGHAT1¦"öŒ4Ñ'õõtåWPQQß=Üİ_	_º×jö ÜÈµÀdKÑb´9úœĞéê¢p'÷;ÖI)LÚ¶µÑIÓN¤-›úìĞel¸W7†B9qÍn‚£!|B{Ú‰öJ‘ÇC—ë2joowR
+î}œ1ã'´q]bkş`Õê‡D"p¢šn(±Ë@ÛÍV”‚BkÖĞ5?úÙvŸM½¼„Ûi¼)¡iYÀVbÆŠõş½Pm¶likÛV>¬¬C:ÕIêiHª_¹’:Ú;hê	ÇÇöå(^yùeúÑÕ?$Ÿ¯ï•ØÏ6­	şÂ	kz  ÄÆÔì¿ß²HxôÚYÂğöİKŞæ•:‚:úè‚Üüù¯Òw®¸‚Šš¢5†é9kKû½0°
+NlëÖ­Så¥¥oÂv}ê³‹÷İxcñb*-J8ÂIÍOxĞú_¿„Ü	>}•§eÙ$¾Õ¸¶ñC'IÓ'6fk[ÛÖÃÊ[lAg#Úg»•-ÜÜÙsyÌ›&Mœ—O¿™3k6}ı¢‹ÈÛ÷êë/6=Ö
+æ×s·ÒHAŠÙÒ¶íã²²²ĞÏd'©W<(„‹.¦àš Mûê42ŒÜ~öv¢pĞC>H?¹öÚ„ÆÒvaq$j~sûöízqh‚N«¿{Œš@`&_‹Gû†7)=hü8úÓŸÿL#F$õøîœÃìê¢×Ï §~*6Ü‘(6Q‹«+røêuëy«wM‚R×wX¶”ßD#ÿ'Ş'Ü^ÿñJ:æ¨£èµùóíĞÀ§Ÿ|B'íkôLòBÛl›â<-´ä)X7r'Û¶më(/1s`ç‡9É½ÂÓº”eÑ³}–ZÖ¶Ä2˜¤–5ºº:éÑG¡»ê»ôEÛä2’*†E6®ö¹^³'…îF~IMEM-Ö›°õ{;I	Án¥×WDwİu7qÖ™NjnòÑòåôıï}š›šĞMÜšÅP±%ß²Û­éZl»PUUuˆ´ì— ¸}¤„ÙÓQÇC×]=qÄ±!ƒ\€İÜU«VÑƒ÷?@Ï>ót¿m`+jC\¡ıÍIÒô-¶İ€àÆ
+Û~Së$%
+%uF»è°C¥k®»–¦NJîd-HŠ`‘±%»÷{èÕyóà.ºb³b’FÑdˆéÍÍóœM?Ñbë†ºŠŠáÃ=KHšä$%[º½G¢ïÂm»à‚é´×È½œwÒÿîìY³èX²•¯$,Y"««»EÑç–¤S‚Á ï×¯ Zl=0~äÈ!í>ß£È ¯#Úï|â§wòRÔÉGN¢ÓÏ<ƒ›z=††ÿÀ aqmÚ´‰–,Yo_Ài}–Mô–0Œ‹õƒS„[/Àtµ4/·%İ…ŒĞN@ìbF£&
+±¡£ñã¦	 #'I4|øpV6Œ<îwæ1±öÚ²y­_ÿ9-ÿp9½÷î»´®â†ëq#¹\îş[1ˆŒ©	G"3Ö¯_¯ç;¦-¶‡¢ÿ™•t;®'X|L$¦®h”¼.)B%CK©¸¨ˆ¼±¡I‘ÔÕÙ	¡µÇV „wIy½±'¨T\»±U)õæPˆ;Bç b£Å– cÇ-5wtŞ„ò2mˆ“œ@ølÍ^6,÷Õ­z/ö4¡Å–$•{×÷n]ƒ ˜¯F[©Âšñø™Şé(h±õ£:¸P(º–ÎøàËGEÛ ´{‹J|·×××÷¹¯¦fàh± §ÇòÛ^ŒäÅ¨¹ŸŸŠÖÛ’şäQêîOC¡¾7‚Ô¤-¶0jÔ(_©§øt%íëÍÉ¦ì.âf?äîêúã§ëÖ%´]–&µh±¥Yã÷†ÃÕp/ya*OlNmaâpo"wİ/@àa08wQ¼[_“%´ØÒD¬÷²³“7†=¯ãá¾í+$¥{î–a­C[ò=ø‹ÏšRÎƒŸ;ïi²Œ[¨¨¨(6cŒAt¢$9¶nDQƒÌĞ‚­¨æ}Á?ÅëuÛ”sŸ±¦¡¡a;¿ÍŸÑäZlÙAB€^/y÷Fô Ş'nD5ÒË!ÄıqœûT@dOÛ†¸S±ª©©i§°´¸r-¶£Ö_5]I»¯›oiî„5ƒ„l5Ş5š‚C‹M£ÉZl9†"{plf¢I-¶Ã–”Rjö@‹M£ÉZlM†ĞbË=ôxY¢Å–c%òjaªæh±å6Ù¿Ku¾¢Å¦Ñd-¶Cè6[Ş¢Å–CğÊo[Ò!NT“gh±å¢&8«İç[Ëv…“ÖÚúBtc<»ÈªŠª#‡ö8Â?…ĞÊqìs%†­¨x¯ò²Uµûmàg„;ÉšG/±ÉûFİàéBRycAt‹È¶nljiyqmír-¶SWWWÒÿŒı;œøTL:¶ğ]›º¡1zËIÓä Zl‚÷$éêìü&2ü&¼F:É©Dáßle‹;ŠK‹ßÑ{AæZlifÂÄ	î¶[Î±¤}2;eÏ
+è¯·¥%nihi°nÓåZléCÔøı‡Û$B›l2ÇãÉƒEö^×5ƒ‹œ¸&‹h±¥ÆŠnD›ìbÇ“³†m+Z`ÛâvË°‡‚Áˆ“®É0Zl)ÄŒv[tƒmĞåÈØş<Ï…í³wRQ¤+üİ¶ø9ÜK~ˆ»›š¢Å–êêê<‘öğwüo¥¿İb[ô+aÄÆÚfÄ“zäR*dKyn o—Ì}ä”!Öë*ƒÁ×
+d—dY]]]JÑèDFfˆ´Ñ6ÑpÜ¯äGjWÇKê’JÜßjş?'%†Û €%+‚%;¹x2ø '9YøáH·û¡†††¶jà6€âoõHl+»ÚÚZ¯êìœÑı7òP¤';Iá}¸ÛÂ‘Èœ||Êh¬‡Ï€˜~€è1È×tïH½+ï¡2;z×Êl±ÕçÀİ¸…‡ÊœŠRéÂEplG|#jğÔàŸ˜DA´!xGßA7 [UYuœ4ì»œ€WÒÓŞÇíÈ‡ÜÑ®_ïú ‹dÄæ„c=[7lœ*¤¼	ÑcğÚã¾ö‚Ì¯·•¸qßê}_X´hQ^X:gÚQä{wæTD“ÉT`Cà?lpâ1şé$`j‡Á=ù;+¤t¢p“•PÔhKúß¨R¿…B[÷rQë÷W[$ï‚ ÎD<één™‰ğ¼aš?nhm]ë$IÄ¶•ådüÆ­øãp“qXtŸá8£Èç{yÓ	X{¬ı8’òÄ¿OÎ8ïuD"'ìî-ì®x£ÆxÉ©2Íø¹WÁÏı«Ï)j+*öQ†û:äÍ•ˆ²ÕO
+2{ê—C¡¥NòPl;á‰ÍSp¼¯SğJnõ·¢”¤_–†Ã/¬Ø¸±ÃIÍU‰}Œ¨=Y‘}*î©2İ‚
+«Q˜æñ­­{<.yw±Qm p¨¥èÜp¯“”1P Û©£PW:IY‡Šá5Üü¨È¬áNrr ?mÛº®©¥åmÄzí¬~ß¹Î‰öD¢Û‹šŠŠıÈpÿá‹qÉô`²kß€ÿn3Üî'ĞìŒ'gŸ©S§ºZ‚ÁñŠ23ÇıP^KcofäÕJx,_ëÎcaöƒÚõßqò÷ ˜%8n÷w³}s¹qİ¹=|mĞ]ı¬)¹°6ã¿Ÿ6ƒÏ œPW;Äö ~ô½‘¨Øv"ü~ÿh7Éq>ßH²`rû#‹ñS4æËÒ8]¬7Q(5E):…ò\”Ì½9=şv è]eˆ³š››×;){Ğ­Ø »!wàÈ5l6.è”ÌoƒA~R¦1píÇâx+^ÜÙ<(œÈµ_ELó÷­­­;œÔ„H“Ø¾¤¶¢¶Ò2ÌïBp—#:&š°"ŸàÜî‘^÷“Üsê$§§§u?¿“PAœ†ß‚<-sŞÎE¶rşà¸€lk&¹İ+ššš¾ˆ¿§'±ÑT4®[ÛdÁõø¹4²™ü}X…§f+‘vàB×Á…¾7õ$\pòc/ñ‡Âßexİ÷÷·0¦[l;{<¼È0.·¥ü~o'9ØÒ…l›nëTæãÉV&½ÁKöy<•<çt:
+oE6š3)€WblÄq¬İ#°vï!l÷$"1räH_iQ?;ìN\ğ‰Nz¦a‘=n*õãtöTÆf~ı~ìÈş,¨#sXæ¢ğmqÒúE¦Ä¶“ØX¡¢ï x-*?	{2È¯^7··?]¿y3ë$YlÜ°q//_QÒ>ßu2®;sz*—ı¢íÂUuáKû3«g (üş<W‘ç’º(øõåGKi_ŒÂs,Np_$§ôÂ{V¿×­›€›ğ)yUS¨éµx45  •¹,ú.äu.r„“œ,²gP{İ†Úk•“6 2-¶pG,İy¨\¯CåÊä‰ß÷x›î^´éş€6İ6'µ[xxÉPê@K©3…”_EA<4Ö‹­ïz”z\ÄLÛ¶EEAešÿ…÷xÛ‰lìÍùR,Ck***m·û‡8ÁoáÂ÷BRâŞ€õºĞEòIü><Ø=ÁM1‘y¿ó{g¬ZµŠŸ¶ÙoØEßÀEòJé¤Ú-<Fø
+LàŒ†`ıô”U ÙÛNbm%ÓdOæf¼&ÅƒÇéøyŞwxÃ¾ß×o®ÿÒÒA`{ÛÑèq‚ä…¸¶P©rÅ–Ò-9Øz¡ì|„àë¤Ôó¶Ëõ±óTÖ]W;ˆêŠêZr«[qü¬ó”Co oB¢Úïÿ
+<‡çq¢Ùè:"+Ş	_¹qãÆºu%%á'~:^İ
+'ırèrò7MjÙwƒÁcğ÷w"zD<5)x+‚w‘W×¢°/A<e"ÛI¶Å¶<@>ÇÿÂ5OÆ5'>Õ	Vÿı7Ê²°É¾ )Gãïû³õCOp¾ïÀ­8.D~Í˜æ«pá¹©‘È=UUUã¥msŸÊ?ÇRÓNêAˆ-ğ!2‚İ†Ì¢hj¸(4Ï;)1¸á"â±¦ï!Úmû7?Šw4Üîö<ìÚ@à0KÑí¸Ö¯!šl+ûİ,²›q¾óOÛŒùÛN¸gšg¥ğ8ã)È¹l=?nÎ!ˆ{ğÂ³È4—Nlmmzf€÷–î`Xº"È2ıiJô¯¶˜STâ›.ps[ñ#ıq¥ú¾fşWEáğ½½4ªeU p\’ûz«ñ][Õ·•ú~ÓÓô"gæÇ/ğÙ‹ñ]I·QŸ¢€İP¾×ˆ——-]f:Éi#Å¶‰æFš7¡¢œ¼L÷¤ŞÓÇØƒ˜Uj×ëİ’¦ñWqÀ˜1ÃM—ë"’ò2ÄÇkÀC^8ÿ[‰;ŠKŠãò)jüGğµW9ï§Ú6üÎŸ\]›V¯[½ÉIî•¿:ì¿Ãí}ÙŠ¢5¸²ŸÙnùÂÎ±îü€J¿‡ß½Ÿl/ßè&¼nmÿˆxÚ,Ùîä°Ø¾¢«%Ã}òç‚>ïMb°çĞòÁÂ<Ëæµ(Ñ‚,MR5••5$Ä¹ĞÛWpN‡áJQÆ¼¸VÂíùgğ~‰\ó0H‹mÑaĞs»{AÂéö~á‰ñ¤£hşÿ‹IêşP(ÔOLî Ô6<Övp<¥gpÑ<Mæ5XÄ„/AæpWv2p/VNúWÛ#‘'¸é¤gŒÁ ¶ÔÔÔøÉ²~€<û
+å('9xMİ[R#®õMÜ«h|mq“ c["p³ØÃ0F
+ÛŞG(1BIÛó¶QÎĞ2[%Y­†”[\¦¹¡¾—vcL¥#GRâóñ®OßG45Å¸ûõ[S©ßtŒ,> ëş¾ï4')õğÍ‡%ë´ÌÇR9P›,ƒIl;‰­1Õ¿‘A×âÜ¹7ûŸ€ÕêDÅ·y¼[(”Zì*.­ZµŠgÅç”¸ÒILl;á.ZU—¢PŸ…‚Wå– ÌíœúÜîà³Q|¶Ÿ!Cç+K<ÑÜÚü>ŞJå&3ñzœÈÏNzÖ}°»Ø‚›¿ôzÈö|Lf0Šm'¼†¬½È÷=œÿÈ×uÖJ4|ê#¦ù	*0S‰äÂ¥Gñ ·Û¶+à¦ÖX†]ƒîƒœQÅÈH^2Â‡MÑÊˆe…ZZZxÕqZ3nå[ÊÇğÛ¼h³¿pÑ'‚Ô]Ù3éç—ƒYlšŞéQl¹L|’ªy%Tı3¸'ÉlxÊm²wágßéòº^ÊK¶;ZlùË ÛNvÎv€•:¢!ñ²‹bˆÛ;`ƒ7ãyàóS©Ä*²\Ÿ4´6p'JZ­ï@ĞbË_µØò-¶üeÀw&1´Ø4š¡Å¦Ñd-6&Ch±i4B‹M£ÉZlM†ĞbÓh2„›F“!´Ø4š¡Å¦Ñd-¶Ü#g'Ik†[Û‹C“—h±åB[¶¼E‹M£ÉZlM†ĞbË=²ñ°AMĞbË1„¤¨ÔäZl¹‡Şª"OÑbË1lÒ]ÿùŠ[®Áskò-¶>¤î ÉS´ØrŞiÚ	jò-¶CXºÍ–¯h±å†v#ó-¶ÃVŠ-›î$ÉC´ØrÛ2ø‰:z2r¢Å–cêâµÌ	-¶Ã-åÜİ#™‡h±å«ZZÖ‰øCÜ5y†[îÁ®wÂš<B‹m¢·NœÎQ“C”—•}®ä!NtOÕ/+U>thx|[Ûº *èå9D]]'Aø¢GÆS{Vnnâ«’Ä+¦´»İîÏsñYá-¶¬ÃÏ·"‘ñÂ0Î€pÎ’@rqüİ¤Ù×ghó}(,úL
+ñwpµÇãY»zõêÍxOße-¶,0•¦ºZ+‚ÇXnš.oKÚ7Âå¼Jl³ƒ€M¨¬¿õ.ÒŞ¶I-#—ëïMMM_Ä?¦ÉZl`êTˆ«¡u´r›Ç z&
+şÉÈø½âïf(ZzúrœË;¶RA€«‹ÚÚ¶ÔoŞÜî|F“B´ØÒÄTXª5UU	Û>™|,ÌXX˜Rçí\%n@eğ)Iz‹”zSIÙ[ğÕ2@´ØR‡¨««sGÚÛ$’ç!~!^£!°t¸‡™B¡’ˆBxÜ	óÂ‹q=ï	‡W¬Ø¸‘Û‡º4	´ØÀ„‰Ü[·l#”:J):ñ«ÈĞ‘ÎÛ©„º›pô¢İ5…¿(œ5Xh+mËÙK$Ñ2KÊV¿ß¿eÑ¢Ezw°ĞbKîïlo?˜¤<5ı(øû#Kœ·Šsáu!|ÄëAxÚUÿçözjš¦b$¹­‰xÿhüş$÷ÃçÒ!ğdP8ï-È‡V„ßBx* å¦”¡`P¯ÏsĞbë1aÌ¨â6£ø%ìs ®s‘¶7^©˜À…tnÂ[¶E¯Dz¡:hu°+**†ù¤¯|»¹}İúõëÙ’à£{ kkkİÂ4«Ñ :ñ©çá8ÅyºqÌÖ¤¶Ä¬pÎƒ{@ÚJ½İiY¶¶¶ò"nÿuw=y[7ÄÆ¾,k_U'ÂªpÇqHw`Àqac—ğUX¤¹Òí^ÒĞĞÀi)î\9Š	2·¥=	ç8~w~¯!k³†p]8‡O¡²}Öï=Ûå
+555mA<ïİO-6‡‘#G)õù@Ûë)ét$UâÕßÁå]±amÖ@´Kl%uY]oUÔÖ®ÏdÛ†‡Ö­^Wf{ºöQJƒx,Îx¼µ^©¸ÆşÂnó6äOç³Öo¡p¹>*^Ş¼lé²¼[fT°bã
+…†“R'Áİ™›>µî¼5ĞÉÙìEP‹„ï›£„xvøˆáõ(<,®\rŒº#Š#ÅC¤³…+?oœ7» Ù˜¤s?qÜŠóx…s¾2Ä;¥¥¯Ø¸‚§ jëWHbuån÷X„OÃëdâp§`”(AX¯ÅÏF‰x+~kP!€~fòf2òæHşfmŒçÂnöÇ8‡w¥o¢m»Üãñ¬[µjÕöø'ù.6Që÷W[R‡öÁ…6É#qÃF =µö‚wñ}Ï¡}4wÑçùØóVQQQ\"ey—pDÒ>†gÁˆã>8f§ü(Šà²õû¦p®0h	Ú¾+SİöM5ù&69~äÈâö¢¢Ã<7äl\ Oìh§ ·»Øaë5ßù¬×ç{«¾¾Û¹äf.3Ü:FEÌ£m#Ö:‰uÈ*ö2]®xpïÏûÍÇ}_ ñ}PÑĞ^”C®g¦3%åÄ:6¼¥U$Ô‰(÷§â†³õJÅ¸Ï\q½‡ğLaY‹[Z.4q%ß‡a>ßşJÑxäÙd,¬„õ‰û‘ñY41×36ïSÌAì[Ê¦p8¼iıúõaç#gPŠmÿ1ûïeyº†ÎÃ†#ßPóv¿ÁâÚq^³lC<_¼½¸©~s½”Û? PZD4æÿh©bÃ'‡C ÜfÎt(¯~à1¿/PVV şšm‰9Í­ÍÎXå9(ÄÆí†"Ã¨VRŒ›v.rgŠS[èüqºp6âKE/™ÍA»‹—hë•$î¥×kÈ–Çâî…¼?÷€=‚–ÉPv=aükccc(”^rVl¨G»-ëHdÆÙÈ–©¸<&4ànylÜ³õ"ìÛsÃZ¯lÎ÷z_4ôÆâŞ°ûy¼î€÷ÒnQ«.k
+ÙåMûª†œ[mEm¥2:O±I~'Æ.ÇP$ôù‰g8¾ï{ÒTjy(bë¥g¬ç&bÔ¨QÅg˜aGË>÷mŠPteÎgR7”¤‚ÀIJYOêmooßÇeË³p&ÁÚp3PëÅ5‹i)^³¥RÏ7„BÍkq^Ä„‰\m›6SJƒÊø8”’#>
+Ø‡c¿ËÄ¤¦4†B\^ÒJ6Ä&kPòÏF˜UOAçoÙı)ó¡©™Î„Wo§É_Œêêê}„R¡,µ´qx%[¦¹rÖ.ˆGÓGÆÄÆ“cİ$/€ü}üè¨‹¶&+¾ô„gl<UjvIIÉæúúz^š’àÚø|nßAÂP•¸¹Ãq[m!š››Wâí´ûûšŞ‰M7ÍËp_@4™¡K)qJs¨ùU'6Ò*6Î eš‡CWB\!©¿^3ÇKö×À
+Î³•z¡¨¤ätŠ‹á­B••S„a|¿2‹]–]óŒÏ‹ÇŞn5Üî¿è–ìSã÷_AR>†`Be÷/jÛ¾ã$¥´ˆ­nÄˆ’¾Òs¤´„(¯¯êOÍ¹'øÏ
+Ó|£±µ•v¦Ú^Fµ?ğkˆ›¯¡¯|â^ÎdËë›ZšØ÷Ç)k²„¨	x"/°íî 1,s¿†ÖÖµNRÚHµØDu ğ/BÑíW€ãñä„áiQŸÂ=œ_üIo8üQıæÍ¼ÕvÆ/jÈƒPG,MÆİÅcK»½×ëóÍ„åÕâY b»‡ã±>ù;Úk¼ûtÚËXÊÄVÔÁä<Š ÏHE_ @Ä+••AÏƒÁUHÍºeÀû%×Çcı‚WÌFÅñb”hAW$²!›S…
+	Tø?BÁ¾Ç‰öÅÛN8­¤Dl5•îº¢æ$õ
+”Å€Âø<æÙëy«´œq½¦Ã…\ê|æXçÃ×Ë«³ßÆwÎ¶ˆ>t»İÍº—PQ>‚ÃUñXÏ Àµ ­=.S«,¶ı£Š>„ëäu’zFÑX¿g%©+««WåêNLp!' ‘¶qn'@t¼=?ª¯ våzÎT8ƒîñ6ÈøŠö‘·¼¸GpL”Ù‘ïÏ;IigÀb«Tİ/È¾Ú‰î·ÁÖ£-4lñgwiñœt÷ ö1aâùùºÏ]Ã†3ÚÃaWQWÄez‹WW—Ëòz}h+–àœ/…¸c$c x{ğE
+íUâÒµ+6nÔ†êŠ)5Œò¨á9å×Ø€×P"‹¹“í.m«àR ¶À|I·>/®¢ï}•Š'iÆ6AumÚä¸ÊŠmÑáUR¡`²EåNŒ"[ÊaøÍrüæPd'Oõâé=Ãçc)TôR|Æƒ0ÿ]ü¥ÈƒÏp®tË€Áù±ÅçY/sl!onn~áLõÂæ$±qZ)«7“=O`æ¬½Z°İa‹†Ã­M¡à­8fÔ³BÃ½n÷§ø¢n÷®Gæ´£˜ÌGğ-dNƒ­D›ˆíóGH9X”˜öR	j§Ò‡áo¹8ï•"Ì*BXâ}‰Œcağ5HüÍÎ0¿òä¯«[,,óÊÆÖVãYÔ¡\í‰Ò ©6Ù_AŒÇ.ÆÍí÷Ú8ä%ïmy*ÿ—âÑÌ’’‚	ëv.2ã©M¸¦„I‰e{4Ÿvâ]¥ÛZÚÊ”§Ó:3¾ù,¬ÊÒ§¤|âûÚñE/ Ó®ËæŞ0)¹ «+?±iÎÚ¾„¢‡CÁGhPNãµ‰>·»
+>ñx\Ë	Â$û!.Ş&Uå1¾;„/ü›âa¸â<¤”URyq²*¸
+_ø ^ZpiˆÛg7ƒ3ã)¹Mİˆº³$<ââ›O„À&á†@\^üÛhZ ™B¯Ø¤~•’w9Ë™M˜R~±UUU‡HÛ¾},2´ïá€Ôƒ{á,\ ·ìx›o!´ãb£ÈÊ–1+a#Eú|&§í„sœ±Š`Îtšğ<ÒÖQµåf‘Y<Ÿˆ×œ?ªxò3mÍÜãí¸¿kğ{óm¥^,*)YœåïI¹ØŒªŠªƒ¤Ûş&2ƒ7?åÁaOÚõ÷Â(4<£‚kÜuâó&ş.‚w@Ûqä½îcŸA:ûß;ğ·]x¯”ê”¶Œ*¡Ú¥”¦Äg”RíÊ0¢¶mw"M	ÓTâÛnÓŒ
+!lËë*ìr)¯×k¹·º•Ynš–işß	~+gÁµóêbî•ËÚ8%O2w1ÀS¦â¾°åªÄ½KÕV=ÁÃI¼ƒò{¸³Ï™Ò~#¬OÏÙµğ§—?pAå.Ëa{<RvÊ­Û£Û·ù|–×í¶İxûŠm4üQâVÉy1;¡&àíÎŒÇrì{šBÁkœh&ÕÕÕ¥†R‡Z…FÂWà¤ÕÜ¾ÿì=l6YÖ‹ŞÒÒÕ°^ƒnÁLˆmPQ¼„Lá…ˆ9	J×ZÃ4'§k–zlYQuõp¡Ô>17PBT*6ƒ>ş«ôÃîşfx-8.´I¼æ)ö¼3Øv?î-¶İ¨ñş†Æ…ÊE¶À?;-•k¯xk
+3ŞOY47\…Å:Û]ìög¤£ı¢ob¶ÑÙùÙ§ëÖñJûAe¹úB‹m7 ¶G ¶>'±f^Û÷K©V‡B<¡¹¿hk!Ó<ŒİA!èx\ë|w)
++åg4D ê¥Òüê¬ˆi.ommå6yÎtø¤-¶İ¨®üPt¯Í:(˜­(‚÷^÷}I®ŒSŞéõîƒvÎ‘BJÏš€BÎ»TlKŠdà}ù‰Öãõ1®e!Ş,
+‡—×oŞ\pkı´Øv£ÆïŸh“\â4ü³Í»¶ECüŸz}¾¿÷±Uúış ÌÚVÆ	‚ìà–Åz3y-T‚n€+Ê«&æ	ÓxÓÛùÅç…(®İÑbÛØCé7læ§Óæ$e”İØ=âÁíˆ<ì.öŞ¾jÕª°?p»LY+ÅÏU;ïÏÆ‡3å2ìö±µı¿ÿ¶¡Ä\òºÂs{Ko‚´ZlİPSY9c‚)y´oOÀò˜¸­(¨­7»y‰Üv´ÅüˆŒŸí1p¾¼]ûzœ$ŸÃ$Ä›¶Ë›šš6Ä?¡é-¶à=HàNşDÀƒÇ©È'îäàgŠñl‡•p³Á·[•2LJÍDïy˜Spe€Ãg8·e8ßW…a,–Rn€åânx\&´ØzGÖ,¶‹PğøQTKqü²K%§y™(Œ<³…Ÿ½µÿ&¥hâMH_+,¹FxD°¬¼ìóeK—±{õe¯¾ÿZîŒÇ²Omcauâœ?ÁùóúÃ×.Ï«×­ŞŠ°v	S€[rÈ±cÇQJuš¦á’RE•âyx‘P0Èm—¤k{ˆ7š=6Ë¨ °ßÚ–õBSK/TÕ¤-¶,Sã,GAçù…Y5[g^Y¿ÄIÒ¤tNÕ$ ÜL~FAN ¡•H%j¨&Åh±eŸ¿9Ç\À"Ë^ã„5)F‹-ËxººæÁ}ã4fEf”wˆhÒ€[–‰O¸Ï9Ñì"!7OlZ“´Ø²-”u/ŠyÖ—ïÃÂnëèèHû&
+-¶ 1â‘eE¯nÔÃ¦-¶ÜÀ6¢‘QØyv|¶°lK<è„5i@‹-GX½nı&;¾åyVfkÀ…œÕÜÛyY“&´Ør0ğWX7Ş%Ó„…eüIÏ€Ñ$[±ˆEáN^	Á­v’2Ï‹|¤±¥‘Ÿ®I#Zl9»“†¤³`b6;IéEÑGEaßÏÒV-Íè¹‘9JµßI9›§P9I©GÑ6KÒ”`0˜3SÆòmÙr”¦PèMm:ÂIJ-,4‹ÎÖBËZl9Lc08[ÊØşøü¬¶T²Å&u~°5È«Ñ5B»‘ƒ€ıÇŒÚËò=‰àIñ”şƒ†Y‹":m¹“¤ÉÙ„S30¶´w„·~ñÅŸ‡••ñ³ÅCÉ…LE[Ğ_Ğ<³¹¹9è¤j2ˆ¶lƒ~Ü­‹ä·qã¾ƒFÀşNrotØŠæ’nnˆ[3İë˜%´Ø)Î¶á‡[JMRN‚åÚÉüHäN[Òf¡b{‰Ì‘n÷s¼„G‹,«ı?ã@fó/¦ª    IEND®B`‚                                                                                                                                                                                                                                                                                                                                                               æ%      Tåcpœœ‰PNG
+
+   IHDR   r      o@"   sRGB ®Îé   gAMA  ±üa  %IDATx^í|\U÷ÿ÷Ü¹Iš¦iÒ4-„“„lAÄ»®háYaA\PuwåAVÄ—gÑ‡åA)º *¾<Ê³Š‚‹BWÔŠ¼SÊK´i&Ã´RòÚ4ÉtrÏ}~ÿ;'Ó¹3“ÉL’y¹§ùòî9gÒäŞû»ÿÿùŸsÏ‹IÓĞ
+ÓØĞğÛ%;††6«ây*¡S#éHƒè T¥óTÓIôn÷ÿ‚j,!şÊMÏSqä²£££Şt¬ÊÂ(i¡JÎ3oon^Øl=+
+5¨¢’SH;;‡šD.vP%çÉBKKË‚‘šÚõB8wˆ>¤ŠKB.!âS8&‘QX%çÉBµi}ìN;DKÜÂ1¥¡Ğ;ITYr$“eu«ì<it´´/WYö^o¨dI˜JHúğ|›t« ³««+®Òó¤a›Ö'p˜´BéFI›jY…DÛñlNJäÀUüè;O:¨—¤Z#îU¿eY½*[D{{{°=ú@[KÛÊµ´6€hë ”'ñu¸Õ8ÙÆÏTv4ª-k‰´mëÖ­ı*WÅí‡qü­aÊ·#w Úúü{SâëxÚ^Ô¶¨ì<) –X‹ûu‘Êºà~­Ç¡¤Ş‹]+»LNÕàs.Nê<7Ÿ‚cÓP?ÆTvÅª¦¦:[Ò­H&»:Ù{9qq¯Ê–ázR¥'–È?VéyRˆÕÕ}Ö·Je'Ùî¿¬Ò%Cmw©tVàn‡ÃC*;¢=\ëûªÊ&1Éø†J–£½¥¥Ã1­N<Y¨½àDwM<¬®®nÏÈè¨á¢bwZººìDîí‡p”Šûğ\W‡*rA´º9	µ6ğ½aÏÆ÷ÌæïŠÑ¾bÅ!a²–*K‚{‡­øÔáScH·.Ø‹ÓÄw/ ­tWOOÏŸQ¶ß4KÖ½Æx«ï?¡7ÑRqpO>Dîä®ºÓú?([Ş\€cÑïON!§ƒ+v\Ğ—p²eq'e@´¯]Çùß8(J€{Ñ³ãG÷öö£~3îË?£xÜ¢UÓ›‰Ÿ*Y;ò…ÅÇSxíaûÁ{Ê+V´´C@Ä¯ ›~ß×BÄ1Æjˆøi”°CÃqv±EgVB2³¾ö•Õ’æ*Ã| ×z¼*ò küCO$òsv»ğn?@‘ÛÁCß»wï0§‹Í¬…T§ZbÇâ_Å:Re3€ÀG±µ¼Ù÷S¤ÿZsy„­Te‹Ê¬êÈIğämF%„ÊjE0l´„à:.#ªŸ‰ PĞ#õ,>[ñtã³3‰ps·mî˜+‹\ Úa:&? …‹Èj@y>>7ás?üm§%é•Ö`ğïÔOÌs"$š%#*©Ât<ıÎ³ÄÀ·È4ÙBç”¹±HAQ•Òø¿{üÛ¸×áx·"(úŸ"?mïêGæ£#l·I¼2«:RÒWÂÑÈ5*«h7ô*[p#b‡£U¶¨;˜€ˆ³ên3•¼·¿T8&íVÉ‚A½È=c%ALH¹f?ãWTxêvtE"%ïí/NÜØ®’…#©è=:“ˆ€c‘güÔádÇÿKÒ1\Ôõµq_K6 K„Ãá¸€W¾É»URKÔõG¹±g~_…£VÁÊ†D¶0ğïv;ÀUVg~ˆj‘1g^eŠÛüpÈx ‡‚_µ Hz]ÒAFå`ÏøøC¸;/©lŞ8RîRÉ¢ã
+¨<ëuK
+ã×øhÿ‚yçÎ£¸SW"YH, m!ø]mIp…D=0Œz²ĞºnWõK•ÖîHä!øÖ;UvZ`OG#‘ÒE­êHÒ4x4XşHúy$yUåö†GF>òq—î,u-ÙÈ‰¤===ÏâÏ¾ ²Óñ›êºZàS	À™$?E¥¯¯owì"ˆ™»:‘ôLMmíoT®$x.¾=Øz		çû*›Tú¢Ú:¶”ã\;::ªittiÜ²VÒèÂ	âf6#Øj‚»›ìåWñÜyÏÁW?Êw"ßKRF3h-îìëÜÃ?Ç?<ŒöPë5ø5_æt¢(Iƒğnïƒa¼¨JJ‚çDxrf€èe¤Š²ñ(ê‹Uºh¬Zµªjttô]&ÑG ÚÿÀ9µÀêñUæÍËT›Pog†‘æiÏ:$Ÿ±™g—Íä\»vm |Ò?©¢IÆ[¬oÏùÛéÈ¸)m¡Ğ§Px’Sİ°ß@ÈÓTzÎááıoî:]ø„;EI÷?‡8x8lüæ!\ä`µHÓüÓÁÜ½aÃLó±Z÷êFüûAzò^=‡{Ã#JŞÓ•![ÂøÈèğ´ı*ò"éaÇéêíİ¡JæŒöPè]¸Áü¤—e­¨Çó?v¤qwÕ‚ª§¶lÙ’³ë’Ïî¢tï#ÚãßGz.ãt©ÉxÚ;;;÷Z}&ËŞ½$è iY7!•ñÌÑ}ÇGË%"ƒjÇçRÔÁÆc±çaq¥ReE<5?å>8Ü±R²º­-Û·÷Æ1#Èfs3iß¯Ò³Eàw]ƒ3á‡£R†Œ¨s>?z.z’§ªrp’eÀ“ì6âñ‚{æŠ)ë4f79ñÔ—AĞ{P”Úóc$¾»|ùòZ•Ÿ	Fà©¿ÒâÈ£.œ-lmÇ–|ª5üˆÊOÂb¯Qiş¢WÔÖ–¬K.©İŒ?=0<tWc}ãÎö'.Æ &KbƒÃCw¸ó&››¿hòv<§¢¨ELe7ß¸¸a×û Â_,$­ã'šóhûÜß—­§+ïØíáHö±DÎ×@ÿÊV¥òùbî©©½ÿ–§¤-ReÎµ
+Ÿ›àAÎå|@Ê£‘O]—˜gZ&
+±‡âæÇQaî1'h1~ÁÍH%¬4Ô\‹7çÃK„/ò½ÖÖV¬œÕÛpm®¥–‹œ®5İKê,È–:mZÔ¸±xpÚ©éîpèG0å™­ªÁ5m¯p¨[&éÍm¯E¾„T>íÏ¢PhİäˆjënKª<cØ¦s#×{*?ˆê«áªUŞÏp)Ù)õxÖwÉ:È³Q¨üÊk—$É½É§OhûHMígU6+í---ø'«¬V$yA²R°LO4zDù/•eÜÀ§ıÀö ÊgbZgàg´\”Ğ±©dÙ˜‘À™@Ô	1ßRyşMN•Íëó@¯,ˆŒ¾Z€{°£fqwœ”•™
+Éo˜Òà†|²n€‚§·‡B«"ªE˜²÷İúI[;;;Ë>ÜeÆB2õË–ÜwïCÒ·xW•sAhÌİyEÈ~ï;q½¼ÆBY™•ŸÛw„ø8’ûğ
+:XÆâ_D*éb…t{oômé‰xü|•+³’	‡Ã[IÊÏ«lA—µ¶´NN|øoÊÙ¾3EÚ’ÆÇÇİSÖÀß½‰%ÌÊÁ¬…dDuõ÷q3SWĞª–óq4Z[[›ñİÁ‰âÙÃ¢Ò{}óÆéº¯}upöî-ß
+¤8§£fĞU9§d0g ‚œwâÀã8÷½Š’òJ!ÄÃ0§YLÛ›ÄÛjo¥ïİz­>|µ*å?#éŠ+® {î¾›,kÖffHyIw4Ê#ÒËÂœ CCo4Ô74(İ¥ ]ãĞ”®Jf»ĞN:‘~vçtĞ
+ï"àÄ÷¿ŸúúûéÙ§Ÿ…˜¥ïtcïàĞPÙæÁÌ™E*LX&ÏI®òvÖşÈ¬îìŞ½{éì~”®¿á
+rü*Ç¡Gy„.¾ğÂÒ[¦¤…ã£G¼´kÔ+9sRG¦Ào.xÉ7$³^“ŞõîwÓ×¯¿>·ˆ[æI'Ñozˆš8€âñÖ›‚–×Ö.U¹’3çm»ş¡¡¾ÆE6êD29k‹_XWG÷®¿jkóŒĞ¼lwŞyôV_=¿iÌ’4a-<uóÚ}%g®-’qb2Îï(g=‹™#Ñ»ÀÔ×{úò‚…_W|Çw	7[
+ë4Hğ`¬²P!‰W{²‰.@X>ãÑè|ã¯úÂU´juúº¶…Á®öÙg¡ña÷wró¥XÀı¼#q(=E’‰D"/à·g,L›/‡­^MŸü4¯Í7{êèÛßù6\ôzê8l%íA;´(â·?E»§¹(ê¿Ñ\¾ƒ’ì¡›ĞØŸëÈókÖĞı<€vè­dUU¹Ñğ\‚ ¯1.ãİTQÉ(j°gÏxc}Ãx\²®ª˜Û–ôS>@ÿxé¥ªdnBğhzúÄ%—ôæ—7»=Eæ,"¸ì	Ã¡‰×Ÿ~7o)iÇaÑÃ¹ÆÆ†vòŞğ‹#Ì_şêZ° ¸c•ÙÚ;î8:ïüQSÓRzñ¥—ih Æ^ "şBT[§uõt?lIEdŠîÏñxñ{xé‰#J½üŠ+ ş¾½PŠMêÏK?õIzæÙgèöşˆÚÚÛi÷ÈˆÛX N)§¦St!m!^Çó™×6/_F^\	l‰§}ğ4zøÑGé6Ğ?à<š–6»õh>M<©%¯S)º¸Aoà¯L»àĞØè8]yåç©®®ìïhÑäYM×\ûïô§?m ÷;ú¢çZL¼6ÃyfEĞÜFNR’6O{(ô4É	/Ùh€;}îy®^*~ÃÒßßOwıüôõë®CÔë­KìÜFxAú²Pt‹dàvr.ÁO:÷¥V2í.]º”?â²eÖú³d«\e£4BJù[•Ì€{Z;ìmnŒxõ•W\QÓpµ¾¢Òe¡$B"
+x‡¬‘«3x¥ózæiö¾•ÏsÏ>KV Jå’H2dÎ­©ŠM©ú¶`¨¢µª|µµéi4ğ–£ä8±úpóvñá	‰ÅãËJµ£@6Jb‘€­1udzCCÃtõÕW«\eòZ4JoîÌ²˜•¤gË)"S*!I
+ºO%³bY&ıòwÑ_6—tkâ‚ø¯»IÕ5nnM–tq¤l”LH/À,s®bÀ÷^~ùå¥}³Ÿ'£££tÛm·RU•WHkqaÛy¯QW,J&d8æ­…¦Œ^|:a‘·İz›*©îıÕ¯iÏHÖ]1ïêí-ÙÚåSQÒ— ­-­Ç¦ó8ËÙ5†våæÎÎ’ö¹æbxx˜ÖwíŞ±ìZVò¬h4gı_
+Jf‘LOoÏFˆ8íí*«Š¾ô…/"HÌÚb)9?üş¨¯/s}aœİ¶££ªlY)©ÀÆ#|•JO‰i
+úïõëé©§Ê:-ß…; ®ÿÚu¨³¼Ş’ôíN^1²(Ëø´)Ëü{•Í
+÷ø,[ŞL|ì1ª®.Ïlõ¾¾>:ñı'Ò¡!hæõ8¿šºÚÃx¥0UTVJ2N0%uMÏ‘á\ˆÇ¨FeÀS ‡P_ÑûÏ{€ÁœÁ£>vŞyí‰ÀoyŸwTagoİ¶­¬½9©”EÈİıü$ÿ->Sz~ñøcÓÉ§œë\¦J‹¿é¸äŸ §x"û hƒ~~í5]1”ºLÒ°´éÛ8L»ŸÆÂºZúìgÑ¶œãRS100@gŸyış‘G³û€ƒıÅ<°2"1EY,’yıõ×eÃ’%÷!üyÜèÔ‹H€7wîtG½½ë]¼ªfñxüÏ†;=—º^Ù‚¿—i‰p©Ã0NìéééUECY‚Tx}‹çV
+Ê9¿p|ï8=ñÄStp¦!r}¸nİ:ºí–[iAí”Õö˜”Æé=Ñ²/Å’²É´¶¶j8ÎÃ8™)-“£ØÖöVúõ}¿¦úúU:;XÀ|¾zõW¡¾•Ñı6	|(71.G"¼JfERB2-Ùf|=š%<a6+<İ¼váBúè9çĞ9çCí‡2ı­,¼ŞÛK÷ß?İzë÷¨wûª©™Ò
+]wj:Æù]Û{Ö«¢Š¤b„dZZZ–ÔXOÍ¹¨/Êï[ÛÚİ‘oÇŸp­\¹’–À«Àd288HİÛºé©'Ÿ õë×Ó›6‘)ÌŒq7HzMúPW$²I•T,%$ÃkªÇFG¿K¸
+Ö9mO ?Ù³–)hñâFª_Ò@ÕËéñXŒ†úhíÑ¢^®ÿ¦rŸiØñÁj;~Ago¯/öşª8!'á¥¶!¾…di·Å‡JA_DPu×†|³ïWÅ
+É ¢­óãmŒ¾ë,ölà15ßòºh4: Ê|CE9I[[ÛbŠËOál/D¶¢NS¹å7êyÇö;÷ÚöÍÛ·o¯¸öa¾øBÈIxk%‹]BBğŒèÙ÷JIú™¨¶>Í»õ©ßR¶™Ğßßo·­ìØ462¶Ö0’#òØŞ÷;‚²qà¸/HâE‚z¦÷Z[Ã+ä_Ÿ0èÔpxÈı9ŸS¶¾Ö™Âëß™$?Áí;UÔˆôX89¥;y;ò·'Š8‚nâ½¼Ì¸õ¿ñs<C( qÇM›.ŠF"ƒ‰Ÿò?¾’éŠFyŒ,ïÜã‚ôU¡ĞQn­÷¨€Öqk›ñûğs‰#Aëº¶GÊ¾Xî\âK!XÙOaY“[-D×âÈ×“Öö4Èò?!¢Ûc«ü=şí5îWá«:2géâúÇÇ8Z-„@m[‘Ovó¡.<VÉ«Sø™N³Ú:umEÏ˜K|µf£-ú0.‚wÀáká¶à$:Ü/S€ˆ»ÓxOOOÏ´ÛZø?[¤ËàĞĞ+õ«©r—$¾ñ ñı™áHÄ3…f€oëÈ¸K^(»Ê§c“”W¡^¬ˆa‹ÅÂ÷É Î]R_ÿ&ÆÈ¦WÏu¿öÚ%8Bk}ÑÁ"]ªëêøõWê&l.¨ùuGº¸Ú¡<¾ÔâL˜İ6U”@µjÕ*m®s*´ºÀp8ü&ÚŒ_WÙIª†††´¨Br¡İ“*}¯IĞ®¬Z[</¤ß@e˜ŞZ5^?>/¤ß€Ş—Â‚ªkb±y!}‡ãx^K!ø©¯®.|¨ÏĞNHÓ¡É±o¬$ËŒÅæjDAÅ¢½ãp¯É-Üa!–Uø¢è>C;!ûéˆ}B®Şw”:¢‹-²¡œgêÉléZ¡õ‹ë%®Êó¾Ñ²2V•("Ú	¹ñ¹ÁNú¶Fs3ë§‚ÑNHÀ™æZÅ¼EúQkÚ‚qrŞ"ı‚o+‰ù`ÇÀ"=3¨ĞiRImÑÕ"=BBØ…‰ƒ¾h)¤)¯EJWH­ÑRÈ‰ô:RPù÷ (2Z
+)„Ó‡CêV ó®ÕÄy rÊ¤ç-Ò§ŒãÊ’BÂµò¢º^«‹'eÌpşKRÛÖÖ¦uÀ£§BğT!)õîİÑRH;Á¦¯È1/¤ßèíí‘ô¾Ê²4¹¬k  áZßRiiÏ[¤/kå¶d*óBúéµH2üáZy	·––Ş`º m…tDš‚šUª"AóhY[0tíøèè¶jËÚÕŞ°¶€í~u¶È]*å‚:³"G	tttÔCÀÏòET_†®à·5†—GC!^ó=/4¶HÃc‘¸9‹T²"€­k…şIÆâ¯BÀ¯C‰åê«ILœóÇUzZt¶HîCLàÈÊ¨#Wµ´,i¶şsltôEd¿x‘Ùìõ¡¤ÃyÙ6•Ë‰¶B
+áx6²ÂS_ÖÑæÊ/·¬—H8¼ÕD[â›
+Z££yu-jl‘’…LZ$(‹«š\?äean„éµ$¾É‹…c¢êp•Î‰¾ud àİZN–¶\ÕÔT×
+7^;ÊKÂÜ‚Ïî"Lç=*™}…tÛºÏ"®µèó$×½Æj†.¯«{7——N[¥¾ÊŸçË$^fæ/‰¢¨ÛóÚìD[!ÇÆÆvã¦H•ejàæ¸¡]xáB4#.x³oîêOàBÛQœ=ˆIà@¤]8Çï"}tw$rTw´‡ëÎN÷[~/–˜ë÷¸h+äÎ;yóêäˆsÜ43ŞŸs!ƒÁ`#,ğ3hn‚õ}^GvÊóˆãó$üø„ CÃ‘È¿@ÄçñUbhŠ$f÷€'
+¥7M2ĞVHÀîjß ,A"ÏÙŞøÜ•ÿ1 ¢PºŸ)·æWŒâ„şŸtlã²¦µğÇY×‹ô’JMbhê½P&ÑYH™ì8‡‰˜ğ³³¶H^0¿5ØzæøèèfÜ½Ûñ{R_eƒ÷¤åÂ¯–Õ
+ñş!‰¼À‹'¾ÎÄ1Œmlµ*›@Ò±*5%Z	’ã[ÙµZRÎÆ"ÍP(´6 éh£Ş3V L÷y"^<At\çWººº<]†Sa;wdŒ'rIöo‹ôtœÃµâÿSï”ƒ¶–¶•hŞ+$=Œ:ğ¯Q”µ„pğÇÇW×Õ¾ø“B—Ûn^ÚÔ‡3õ6„»òeÎˆ[o×šRG"-lG4,’wÒƒ€×Ã)¿Œì©1û¢’xïŞÃ-Şü]x{ø±™nÙëº]I[UÖUÄRU9wBÕÛµÚôºJ1B˜ùMæáşM2—Z’8šü<Ìº,p;\öW„m/«E}ñĞ¥7ÿ:Ó6W¨lVôÒôNæÓvœ·¶´¾]ÆãÂ¹Ÿ¬»¦±€8|Ö®^F®éêíšj­ØßïéÀƒ¦“³Ô[ÈÌåÌr÷ÁÖó…å<4G‰™õ ¤øÿçÀ¬D sÓ–-Şºl0#Ûîx\7O‰ÖB
+Û+$”™JHºğR8?A:ÛÛ†¸Ğ¯š5U~LzT9§HšèÆ†™‚ wä1 µÃ».Ì.d[(t¼…DÆı€€÷:BÅ.tëÖ­Şá#Ebw,Öƒ¿›:	‰Ï}Å@só”ï&uw­éÛ%eÔ‘­­­Gâ&ñ^[Şğ^¢-'é2øáp8üJ¼RDvíÚµõbXej«©™²«Nk!ÃÄİOqî’G«	Çù)nZ–w•òsˆDy‹ıÔ÷’‘ğ 4céoT:­…4Msm°Ô5wxQˆä5×˜Ö×pÈÜhTÒõİÑ(¿C,¨Ï½ç.â½*‘ÖB.²ï*Xµk^ãºĞPh®şR·ÔËï–5ı%s¥ÙÈb‘¬Ö•Ê@k!û,KÂ"S…¬ÚõVŸÉÑÜÔÈ{:ÑqóŞŠ]š«S»TRft.àüV¯]»6käªµ‹/f‹Lu­Õ££f4ä6Ù)‰¢$ı;š=*WVœ@€;<K±Áİ.ÜŞ½ı0•õ µ6.~ŸE
+ª¬©©"!Ö¹¹î?•£×ŠÀ²¬1<XoL„!³öğh-$à“mI¤!N†¸éÑß
+Ş¿¹bØ²eOÖ}Ce“Hád}7©»š©¯²jQgr¤
+-=|mEÏ‡
+`'ùŠJ'ÁÃÈ»Öf »L²ãœë\qHeHŠÄ¥¼^å*AüúÌ‹ •j¶–í…Äœ³[Mqe4õvåU,¤·$i±iY=<ÚiLŸğºItE{xÑÊDÊ(DOSUÅBˆv°Ê&Ñ^HAfL%Ó‚şGï_AˆêjZÓÏ_ˆ,ƒ–µ’Ï69¼wdŒÿèŠD2‚‰J¢«««õzúËq®ë3ŞMj-do8|0\QÆÜ	¸«M{ÆÇ8z­XkTp‡ıæD2A‡òÔ•sÑZH[ˆ³qğ¼‚r½’Ş¹sç¨*ªh dú€e.txFê^G¯IÛ¸hk4ê}×WÁÇ æEĞâøÂ¸§«N[!C uÉÛTÖÖØ5û³ÊúCfï¨0¥§ÊĞVHøSÅ”z}¼CÏ5~q©“ íÁŞ#óåvZäª³kåşTe8tG#?SYßÀğ$q®Š#ÕÑE[!qñŞ·İƒÿ{4ùIï&¯lnnNøÓRÈµä¾|]™È)¦ªk| ÜJ¶ön`Qmm²]K!{;zù-‡g|j@ˆ^•ô!2sØG‚¤×ÑRHÛ¶kpe³·<Ë~ú	Gˆm*é!µúĞRHŞŠÁ§# fÅ§¥]é då‘çÙ"WxÜ€NK!ã–Å¢y®m–“\ËJÕŞ*~ƒ“1ÏÏÁî²3Z
+‰G×À•%›Œ´MßnQ31ÈÃ>2:ÏA½wW½ÔRH’Ò#"c˜vE-*X/íÚÅ€óL°tjÓ<”Z
+Yİpá1Gøy»uş«*ŠáØ‰WZZ
+‚×4÷†ô­E*²¾;ı¨.õÅc‘á}½­”šjZû	¡PèH-…´L“—GñX¤Q!ëµÎ^œ	‡+¹4Õ@Äÿ¥¥b|œE„wMÁÇ»ºÆGÆøùq‰\VÖèYGZOğÖ‘%^æs®†B¶pnRÙìàÚ´²BÂ=BÂ<}µˆ®ÁC97©ÖÓ"c±‰ô¨7Ãw‰ æ0œ÷£ ÷@ÈÔRÈL ¸ñ¾{ôßö¼Ü¤ø2Ó/„(5rddd"Ãµú¬ƒ¼XÓ‰Ü4^vOC8ğ ^ÜÏ;ëXøKÈ ‰³àVóó"RÓÏmœÀ#êİ."a‘¸7¾€;ı³­o]-8xJ“Ë`»ZˆP>¯ÍPÊMkkë±xâV«ì´ °³u’…ó
+)á­¤œó5Í‹°Oâ·÷ÀÆõRz_Äâ©§â…<ôĞC¹
+8-‘ËÄÚ
+‰§Ô3y•ÛZUU?J ‹½Ş¤ -ñÆ´ç™àÊcxdå÷`=
+r«Š~ëÈô)ç¦pœŠî¦C0ÆË]Ÿ˜ÈÄú
+™64®•¯µ¬;ÖM‡eÓßÂîÂ¿éÕVHÓv]+<l!¤QÑÛó’Ig©TA ­Õ©­ÒLk~ ›^²"áhõxŞ[ñ¦‚§õ/Ú
+‰ãEwS-’İëR•¬8&b±wãü²îf02`Û›´2–h~x„•ëZ%¬RÜ³¬>m…¬¶,^P>uõd¾èJµHnnÌ$Zåà/ÑHDßvdWWWwÇ³(Ÿ!‰ÃûBÛhE'6 .È¹AËTÀó¼Om;ÍŠªTAk^Sq“yª‰‡‘4(âÖıœÔ[H¢ˆ:ºÀµÖîØ¾#ûşVeD:ÎT3yÀî™ÜHk!)y›‡$p­u‹-òíô:’¶8q…Êé-$*CÏz:¨Hš{öTœEÆcu'0Ë¬÷IaÇß‡“ûšh-¤L[ÂÖÆ\UÕÕÕ½pûÙ¦ÍyáMeˆÖŒÔÕÛË;Å&ÑZHAVú²&(²ƒ*]1¨û:$ÓWáÑcøD!â·àJëD®âzÔ÷I*.ŸKÖh	Á‘ë¾iè’>ÙÜ®r•„h…x½õ÷!ÍìÂ66ÇMçµñññ­Ó-ô¤µÜÅzp‘©}¬ëø©VimĞÚµºã[ÓF
+ÀM¹3|uCk!y|+š ÖÉÛÍkç‰´rãs9xğŒ@¤E%µBk!Oğt
+€V55ùy=¬è.$9$=YÃ§šñºº•Õí…4‘n‘$mÊºQ˜ŸÑß"×"½/˜Íü‡ãû…ıÀ"hrxffAÕU*©ú[¤eñ¬¬½‰œBÃ¶¤öBNH9Œ«ôîf#(ØÑÑQÑc\E{!£‘ÈnC¦Í•$Z‹ÇµjOj/$°Q'¦ïóQcQÚöƒ>g’¯2})iPÆşR~fÒ„k=P¥Sáá‡zû ÚÙ
+×zºÊ&1½·5ü€Êúí…´%}¢e³<CñÁPÈ³Y˜_Ñ]H~]ux"™•C’>§Ò¾Fk!×®]kâ
+ytùÔúl[[[îŸñZÙÛÛkÂ$s6üñıš—©¬oÑZÈİ»w›tòY7àRX¥oæe´rÉÄ„à^•CÍ—©¬/ÑZH»©‰şy,7ºX%}‰ÖBJ)yÛˆüı‚D›Ó·¯·´²@)éB•öóB¦à:Ë¯Z)„p NŞ³œHR*ïÍì;´ÒìësPGzàÍ¢WbúÒ½j-d À[+©l^àçO]¾|¹ï¶(ÔZÈE‹ñ–õSĞr«\±°¦Æ³£¸ĞZÈ–®.Şÿ#9«7OXåy*í´róTø&Ù’NR)ß µ ÆE]‰dşÀ½¾ÍŞ®Á7è.$_áK*U†)e®MÅ*í…4¤|îÕ;®5‰cTÒh/ä¸m‡q•é«)O‹#è•ôÚÙÛÛ;†àå'*›?²‚W’Ì‚şu$¨±ãß„0ÙvŸ·—ÇGìBvöööãJÏ@]é™:„»9—C©4ö!™îHä	ƒäÉ3ëîáéĞ_%}Á~#$Ó>^3:r¬$âÅøx>·3³áHÃø©Jû‚}+Bí'¼56¶wphèÉº††Ûi<e8d8-0$j–Õp»ô®G"?wÿ/ úÿMÎÑˆÉ    IEND®B`‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <?php
+/**
+ * Italian PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ * @author Ilias Bartolini <brain79@inwind.it>
+ * @author Stefano Sabatini <sabas88@gmail.com>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'SMTP Error: Impossibile autenticarsi.';
+$PHPMAILER_LANG['connect_host']         = 'SMTP Error: Impossibile connettersi all\'host SMTP.';
+$PHPMAILER_LANG['data_not_accepted']    = 'SMTP Error: Dati non accettati dal server.';
+$PHPMAILER_LANG['empty_message']        = 'Il corpo del messaggio Ã¨ vuoto';
+$PHPMAILER_LANG['encoding']             = 'Codifica dei caratteri sconosciuta: ';
+$PHPMAILER_LANG['execute']              = 'Impossibile eseguire l\'operazione: ';
+$PHPMAILER_LANG['file_access']          = 'Impossibile accedere al file: ';
+$PHPMAILER_LANG['file_open']            = 'File Error: Impossibile aprire il file: ';
+$PHPMAILER_LANG['from_failed']          = 'I seguenti indirizzi mittenti hanno generato errore: ';
+$PHPMAILER_LANG['instantiate']          = 'Impossibile istanziare la funzione mail';
+$PHPMAILER_LANG['invalid_address']      = 'Impossibile inviare, l\'indirizzo email non Ã¨ valido: ';
+$PHPMAILER_LANG['provide_address']      = 'Deve essere fornito almeno un indirizzo ricevente';
+$PHPMAILER_LANG['mailer_not_supported'] = 'Mailer non supportato';
+$PHPMAILER_LANG['recipients_failed']    = 'SMTP Error: I seguenti indirizzi destinatari hanno generato un errore: ';
+$PHPMAILER_LANG['signing']              = 'Errore nella firma: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() fallita.';
+$PHPMAILER_LANG['smtp_error']           = 'Errore del server SMTP: ';
+$PHPMAILER_LANG['variable_set']         = 'Impossibile impostare o resettare la variabile: ';
+//$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

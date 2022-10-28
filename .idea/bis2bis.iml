@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/league/csv" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/bittools/skyhub-php" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/sabberworm/php-css-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/automattic/woocommerce" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/smarty/smarty" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/cagartner/phpquery" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/cagartner/correios-consulta" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/flyingluscas/correios-php" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/smalot/magento-client" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,409 @@
+<?php
+/*
+ * This file is part of the PHPUnit_MockObject package.
+ *
+ * (c) Sebastian Bergmann <sebastian@phpunit.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+/**
+ * Implementation of the Builder pattern for Mock objects.
+ *
+ * @since File available since Release 1.0.0
+ */
+class PHPUnit_Framework_MockObject_MockBuilder
+{
+    /**
+     * @var PHPUnit_Framework_TestCase
+     */
+    private $testCase;
+
+    /**
+     * @var string
+     */
+    private $type;
+
+    /**
+     * @var array
+     */
+    private $methods = [];
+
+    /**
+     * @var array
+     */
+    private $methodsExcept = [];
+
+    /**
+     * @var string
+     */
+    private $mockClassName = '';
+
+    /**
+     * @var array
+     */
+    private $constructorArgs = [];
+
+    /**
+     * @var bool
+     */
+    private $originalConstructor = true;
+
+    /**
+     * @var bool
+     */
+    private $originalClone = true;
+
+    /**
+     * @var bool
+     */
+    private $autoload = true;
+
+    /**
+     * @var bool
+     */
+    private $cloneArguments = false;
+
+    /**
+     * @var bool
+     */
+    private $callOriginalMethods = false;
+
+    /**
+     * @var object
+     */
+    private $proxyTarget = null;
+
+    /**
+     * @var bool
+     */
+    private $allowMockingUnknownTypes = true;
+
+    /**
+     * @var PHPUnit_Framework_MockObject_Generator
+     */
+    private $generator;
+
+    /**
+     * @param PHPUnit_Framework_TestCase $testCase
+     * @param array|string               $type
+     */
+    public function __construct(PHPUnit_Framework_TestCase $testCase, $type)
+    {
+        $this->testCase  = $testCase;
+        $this->type      = $type;
+        $this->generator = new PHPUnit_Framework_MockObject_Generator;
+    }
+
+    /**
+     * Creates a mock object using a fluent interface.
+     *
+     * @return PHPUnit_Framework_MockObject_MockObject
+     */
+    public function getMock()
+    {
+        $object = $this->generator->getMock(
+            $this->type,
+            $this->methods,
+            $this->constructorArgs,
+            $this->mockClassName,
+            $this->originalConstructor,
+            $this->originalClone,
+            $this->autoload,
+            $this->cloneArguments,
+            $this->callOriginalMethods,
+            $this->proxyTarget,
+            $this->allowMockingUnknownTypes
+        );
+
+        $this->testCase->registerMockObject($object);
+
+        return $object;
+    }
+
+    /**
+     * Creates a mock object for an abstract class using a fluent interface.
+     *
+     * @return PHPUnit_Framework_MockObject_MockObject
+     */
+    public function getMockForAbstractClass()
+    {
+        $object = $this->generator->getMockForAbstractClass(
+            $this->type,
+            $this->constructorArgs,
+            $this->mockClassName,
+            $this->originalConstructor,
+            $this->originalClone,
+            $this->autoload,
+            $this->methods,
+            $this->cloneArguments
+        );
+
+        $this->testCase->registerMockObject($object);
+
+        return $object;
+    }
+
+    /**
+     * Creates a mock object for a trait using a fluent interface.
+     *
+     * @return PHPUnit_Framework_MockObject_MockObject
+     */
+    public function getMockForTrait()
+    {
+        $object = $this->generator->getMockForTrait(
+            $this->type,
+            $this->constructorArgs,
+            $this->mockClassName,
+            $this->originalConstructor,
+            $this->originalClone,
+            $this->autoload,
+            $this->methods,
+            $this->cloneArguments
+        );
+
+        $this->testCase->registerMockObject($object);
+
+        return $object;
+    }
+
+    /**
+     * Specifies the subset of methods to mock. Default is to mock all of them.
+     *
+     * @param array|null $methods
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function setMethods(array $methods = null)
+    {
+        $this->methods = $methods;
+
+        return $this;
+    }
+
+    /**
+     * Specifies the subset of methods to not mock. Default is to mock all of them.
+     *
+     * @param array $methods
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function setMethodsExcept(array $methods = [])
+    {
+        $this->methodsExcept = $methods;
+
+        $this->setMethods(
+            array_diff(
+                $this->generator->getClassMethods($this->type),
+                $this->methodsExcept
+            )
+        );
+
+        return $this;
+    }
+
+    /**
+     * Specifies the arguments for the constructor.
+     *
+     * @param array $args
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function setConstructorArgs(array $args)
+    {
+        $this->constructorArgs = $args;
+
+        return $this;
+    }
+
+    /**
+     * Specifies the name for the mock class.
+     *
+     * @param string $name
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function setMockClassName($name)
+    {
+        $this->mockClassName = $name;
+
+        return $this;
+    }
+
+    /**
+     * Disables the invocation of the original constructor.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function disableOriginalConstructor()
+    {
+        $this->originalConstructor = false;
+
+        return $this;
+    }
+
+    /**
+     * Enables the invocation of the original constructor.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 1.2.0
+     */
+    public function enableOriginalConstructor()
+    {
+        $this->originalConstructor = true;
+
+        return $this;
+    }
+
+    /**
+     * Disables the invocation of the original clone constructor.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function disableOriginalClone()
+    {
+        $this->originalClone = false;
+
+        return $this;
+    }
+
+    /**
+     * Enables the invocation of the original clone constructor.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 1.2.0
+     */
+    public function enableOriginalClone()
+    {
+        $this->originalClone = true;
+
+        return $this;
+    }
+
+    /**
+     * Disables the use of class autoloading while creating the mock object.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     */
+    public function disableAutoload()
+    {
+        $this->autoload = false;
+
+        return $this;
+    }
+
+    /**
+     * Enables the use of class autoloading while creating the mock object.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 1.2.0
+     */
+    public function enableAutoload()
+    {
+        $this->autoload = true;
+
+        return $this;
+    }
+
+    /**
+     * Disables the cloning of arguments passed to mocked methods.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 1.2.0
+     */
+    public function disableArgumentCloning()
+    {
+        $this->cloneArguments = false;
+
+        return $this;
+    }
+
+    /**
+     * Enables the cloning of arguments passed to mocked methods.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 1.2.0
+     */
+    public function enableArgumentCloning()
+    {
+        $this->cloneArguments = true;
+
+        return $this;
+    }
+
+    /**
+     * Enables the invocation of the original methods.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 2.0.0
+     */
+    public function enableProxyingToOriginalMethods()
+    {
+        $this->callOriginalMethods = true;
+
+        return $this;
+    }
+
+    /**
+     * Disables the invocation of the original methods.
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 2.0.0
+     */
+    public function disableProxyingToOriginalMethods()
+    {
+        $this->callOriginalMethods = false;
+        $this->proxyTarget         = null;
+
+        return $this;
+    }
+
+    /**
+     * Sets the proxy target.
+     *
+     * @param object $object
+     *
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 2.0.0
+     */
+    public function setProxyTarget($object)
+    {
+        $this->proxyTarget = $object;
+
+        return $this;
+    }
+
+    /**
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 3.2.0
+     */
+    public function allowMockingUnknownTypes()
+    {
+        $this->allowMockingUnknownTypes = true;
+
+        return $this;
+    }
+
+    /**
+     * @return PHPUnit_Framework_MockObject_MockBuilder
+     *
+     * @since  Method available since Release 3.2.0
+     */
+    public function disallowMockingUnknownTypes()
+    {
+        $this->allowMockingUnknownTypes = false;
+
+        return $this;
+    }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               t«aQ      [Ûkò[Ûkò?ºHf       5    ~1542640036,:https://horizon-track.globo.com/event/ge necko:classified 1 strongly-framed 1 security-info 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
